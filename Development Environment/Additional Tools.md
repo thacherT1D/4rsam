@@ -2,6 +2,10 @@
 
 You are not required to install any of these, but they are common in the industry.
 
+### Chrome Developer Tools
+
+They come pre-installed, and you can learn more about [Chrome Developer Tools](../Misc/Chrome Developer Tools.md)
+
 ### tree
 
 **What is it? What will I be using it for?**
