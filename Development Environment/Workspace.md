@@ -41,4 +41,4 @@ mkdir ~/workspace
 
 ## Next Steps
 
-Now you are ready to [Deploy a Web App with Surge](Surge.md)!
+Now you are ready to [Deploy a Web App with Surge](../Deployment/Surge.md)!

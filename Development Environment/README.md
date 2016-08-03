@@ -31,7 +31,7 @@ By the end of this article, your development machine should have the following s
 - [Password Manager](Password Manager.md) to securely store passwords
 - [Optional Additional Tools](Additional Tools.md) if you want to geek out
 - [Workspace Folder](Workspace.md) for organization
-- [Deploy a Web App with Surge](Surge.md)
+- [Deploy a Web App with Surge](../Deployment/Surge.md)
 
 Finally you'll have a chance to learn some [Essential Keyboard Shortcuts](Keyboard Shortcuts.md)
 
@@ -40,7 +40,7 @@ After you've finished setting up your development environment, you'll be able to
 1. Create a tiny web page with a text editor
 1. Test the web page in a browser
 1. Commit the web page to a repository
-1. Deploy the web page to a production environment with [Surge](Surge.md)
+1. Deploy the web page to a production environment with [Surge](../Deployment/Surge.md)
 
 ### What's an environment and why is it important?
 

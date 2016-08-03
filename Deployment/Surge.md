@@ -204,4 +204,6 @@ Bravo! :tada:
 
 ## Next Steps
 
-Go through the [Final Check](Final Check.md) to review what you've done.
+If you are seeing this article as part of your setup, continue to:
+
+Go through the [Final Check](../Development Environment/Final Check.md) to review what you've done.
