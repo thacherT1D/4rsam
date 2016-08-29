@@ -24,4 +24,8 @@
 
 1. [Deploy a Web App with Surge](./Deployment/Surge.md))
 
+## Command Line
+
+1. [Permissions](./Command Line/Permissions.md))
+
 <!-- END INDEX -->

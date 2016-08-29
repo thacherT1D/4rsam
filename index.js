@@ -32,6 +32,12 @@ module.exports = {
       links: [
         {text: "Deploy a Web App with Surge", url: "./Deployment/Surge.md)"},
       ]
+    },
+    {
+      title: 'Command Line',
+      links: [
+        {text: "Permissions", url: "./Command Line/Permissions.md)"},
+      ]
     }
   ]
 
