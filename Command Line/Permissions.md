@@ -126,3 +126,11 @@ Reclaim the file by simply switching the owner back.
 ```
 sudo chown root hello-user.sh
 ```
+
+## Guiding Questions
+
+Permissions
+> What someone can _do_ with a file. Permissions can be different for the individual owner, the group, or all others.
+
+sudo
+> Runs the command that follows as a superuser. Potentially dangerous!

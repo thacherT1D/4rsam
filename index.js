@@ -30,15 +30,21 @@ module.exports = {
     {
       title: 'Test out your setup',
       links: [
-        {text: "Deploy a Web App with Surge", url: "./Deployment/Surge.md)"},
+        {text: "Deploy a Web App with Surge", url: "./Deployment/Surge.md"},
       ]
     },
     {
       title: 'Command Line',
       links: [
-        {text: "Permissions", url: "./Command Line/Permissions.md)"},
+        {text: "Permissions", url: "./Command Line/Permissions.md"},
       ]
-    }
+    },
+    {
+      title: 'Git',
+      links: [
+        {text: "Feature Branch Workflow", url: "./Git/Feature Branch Workflow.md"},
+      ]
+    },
   ]
 
 };

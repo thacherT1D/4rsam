@@ -22,10 +22,14 @@
 
 ## Test out your setup
 
-1. [Deploy a Web App with Surge](./Deployment/Surge.md))
+1. [Deploy a Web App with Surge](./Deployment/Surge.md)
 
 ## Command Line
 
-1. [Permissions](./Command Line/Permissions.md))
+1. [Permissions](./Command Line/Permissions.md)
+
+## Git
+
+1. [Feature Branch Workflow](./Git/Feature Branch Workflow.md)
 
 <!-- END INDEX -->
