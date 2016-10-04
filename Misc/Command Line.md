@@ -676,7 +676,7 @@ Bookmark this:
 
 ### Exercise
 
-Solve the [Command Line Murder Mystery](https://github.com/veltman/clmystery). To get started, fork and clone the repo to your local machine. Further instructions can be found in the README for the mystery. Good luck!
+Solve the [Command Line Murder Mystery](https://github.com/ryansobol/clmystery). To get started, fork and clone the repo to your local machine. Further instructions can be found in the README for the mystery. Good luck!
 
 ### Additional Resources
 
