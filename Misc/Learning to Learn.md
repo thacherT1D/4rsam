@@ -43,7 +43,7 @@ The first major step to becoming a better learner is to set the stage. This step
 
 ### Clear the stage
 
-The first part of setting the stage is clearing it. That means you have to get rid of everything in your working memory that's not relevant to the task at hand. We have very limited space in our working memory, just like the RAM in a computer. Therefore, if you hope to learn as much as possible and to think as critically as possible, you need to get those things out of your head.
+The first part of setting the stage is clearing it. That means you have to get rid of everything in your working memory that's not relevant to the task at hand. We have very limited space in our working memory, just like the memory in a computer. Therefore, if you hope to learn as much as possible and to think as critically as possible, you need to get those things out of your head.
 
 One way to do that, is to write down anything that's on your mind you know you need to do later. Put it in safe, reliable todo list somewhere. Picking up flowers, taking out the trash, whatever else you're thinking about. Toss it all in a journal or in a todo list. That way, your tasks won't bother you while you're trying to learn.
 
