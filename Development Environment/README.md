@@ -1,6 +1,4 @@
-## Mac OS X for Web Development
-
-This article will help you setup a web development environment on [Mac OS X 10.11 El Capitan](https://www.apple.com/osx/) and above. By the end, your computer will be configured with the same state-of-the-art tools used by professional web developers.
+This article will help you setup a web development environment on [macOS Sierra 10.12](http://www.apple.com/macos/) and above. By the end, your computer will be configured with the same state-of-the-art tools used by professional web developers.
 
 ## Prereqs
 
