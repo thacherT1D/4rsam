@@ -1,6 +1,6 @@
 # Congratulations!
 
-You've successfully setup a web development environment on Mac OS X and have completed these development tasks.
+You've successfully setup a web development environment on macOS and have completed these development tasks.
 
 1. Created a tiny web page with a text editor
 1. Tested the web page in a browser
