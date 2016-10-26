@@ -44,4 +44,4 @@ And you'll see something like this.
 
 ### Next Step
 
-Install and configure [ZSH](ZSH.md)
+Install and configure [Fish](Fish.md)

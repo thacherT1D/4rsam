@@ -7,14 +7,14 @@ When executed, many command line tools look up specific environment variables an
 Environment variables like `EDITOR` can be set in a shell's startup file. Open your shell's startup file in Atom.
 
 ```shell
-atom ~/.zshrc
+atom ~/.config/fish/config.fish
 ```
 
 And add the following settings.
 
 ```shell
 # Atom
-export EDITOR='atom -w'
+set -x EDITOR 'atom -w'
 ```
 
 **TIP:** Environment variables, like `EDITOR`, must be written in all capital letters.

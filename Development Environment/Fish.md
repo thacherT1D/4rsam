@@ -32,7 +32,7 @@ Now, quit the Terminal app by pressing the `Command` + `Q` keys at the same time
 
 Welcome to Fish! 🐠
 
-### Improve the fish prompt
+### Improve the prompt
 
 The prompt is the visual cornerstone of any shell, so let's change it to be both functional and glamorous. 💅
 
@@ -59,7 +59,7 @@ Here's a quick break down of what you're seeing.
 | `~` (home directory)  | Name of your working directory         |
 | `$`                   | Prompt symbol                          |
 
-### Update the autocomplete
+### Update the auto-completions
 
 Fish's auto-completions enhance the user experience of most command line tools.
 

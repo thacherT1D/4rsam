@@ -23,13 +23,13 @@ And you'll see something like this.
 If you don't have one, make a directory to hold all of your upcoming projects for the first week.
 
 ```
-mkdir -p ~/workspace/week01
+mkdir -p ~/Projects/week01
 ```
 
 Then change into the directory.
 
 ```
-cd ~/workspace/week01
+cd ~/Projects/week01
 ```
 
 Now make a `GITHUB-USERNAME.surge.sh` project directory replacing `GITHUB-USERNAME` with your actual GitHub username.

@@ -73,7 +73,7 @@ Now, every new Terminal window will look like this.
 
 ![](https://i.imgur.com/87bHvEF.png)
 
-### Optional: Add Universal Keyboard Shortcuts
+### Add Universal Keyboard Shortcuts
 
 Keyboard shortcuts on macOS typically consist of one or more of the following keys.
 

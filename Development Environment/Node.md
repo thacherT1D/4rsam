@@ -2,15 +2,6 @@
 
 ### Install Node
 
-There are 2 common ways to install node:
-
-- Via Homebrew
-- Via NVM - the Node Version Manager
-
-Consult your instructor to see which option they'd prefer.
-
-#### Option A: Install Node Directly with Homebrew
-
 To get started, run the following command.
 
 ```
@@ -26,30 +17,6 @@ node -v
 And you'll see something like this.
 
 ![](https://i.imgur.com/s6yEpP9.png)
-
-[Continue to Discover the Node Shell](#discover-the-node-shell)
-
-#### Option B: Install NVM (Node Version Manager) + Node
-
-Run this command in Terminal:
-
-```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
-```
-
-The first thing that you need to do is get latest version of Node.js. You can do this with the command
-
-```bash
-nvm install node
-```
-
-You can set up nvm to use the latest version of node with the following commands. You can copy-paste them into the terminal.
-
-```bash
-echo >> ~/.zshrc
-echo '# setting up nvm to use the latest version of node.js' >> ~/.zshrc
-echo 'nvm use node' >> ~/.zshrc
-```
 
 ### Discover the Node Shell
 
@@ -133,32 +100,6 @@ Play around with JavaScript on your own. When you're done, remove the `test.js` 
 rm ~/Desktop/test.js
 ```
 
-### Install Node Packages
-
-Node comes with a tool called [NPM](http://npmjs.com/) or `Node Package Manager`. It is a [package manager](https://en.wikipedia.org/wiki/Package_manager) for Javascript applications, tools and modules (just like Homebrew is a package manager for your computer). [NPM's website](http://npmjs.com/) can be used to search for packages.
-
-**Step One:** Install a basic HTTP Server to host and test web pages:
-
-```bash
-npm install -g http-server
-```
-
-**Step Two:** Start the server up:
-
-```bash
-http-server
-```
-
-**Step Three:** Open up your browser and navigate to `localhost:8080`.
-
-**Step Four:** In the terminal, press `ctrl` + `c` to terminate the server.
-
-**Resources:**
-- [npmjs.com](http://npmjs.com/)
-- [http-server](https://www.npmjs.com/package/http-server)
-
 ### Next Step
-
-Consider installing some [Optional Additional Tools](Additional Tools.md) if you want to geek out, or:
 
 Deploy a web application with [Surge](../Deployment/Surge.md)

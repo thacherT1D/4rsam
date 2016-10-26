@@ -13,20 +13,17 @@ This article assumes your computer is up to the task of coding.
 By the end of this article, your development machine will have the following software installed and configured.
 
 - [Slack](Slack.md) - a chat tool
-- [Spectacle](Spectacle.md) - a window manager
+- [Magnet](Magnet.md) - a window manager
 - [Chrome](Chrome.md) - a web browser
 - [LastPass](LastPass.md) - a password manager
 - [Terminal](Terminal.md) - a terminal emulator
 - [Homebrew](Homebrew.md) - a package manager
-- [ZSH](ZSH.md) - a command line shell
+- [Fish](Fish.md) - a command line shell
 - [Atom](Atom.md) - a text editor
 - [Environment variables](Environment Variables.md) - for configuring your environment
 - [Git](Git.md) - a version control system
 - [Node](Node.md) - a JavaScript environment
-- [Optional Additional Tools](Additional Tools.md) - if you want to geek out
 - [Surge](../Deployment/Surge.md) - a deployment service
-
-Finally you'll have a chance to learn some [Essential Keyboard Shortcuts](Keyboard Shortcuts.md)
 
 After you've finished setting up your development environment, you'll be able to complete the following tasks.
 
