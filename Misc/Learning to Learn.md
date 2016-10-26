@@ -31,7 +31,7 @@ To become a better learner, we recommend this three step learning process which 
 
 Time to take out a notebook. When you encounter one of these steps and its sub-steps, write it down. Don't worry, there's not a lot to write so you can still pay attention to the lecture. But it's important that you understand these keywords and share in their meaning.
 
-Also write down anything that resonates with you. In the final exercise, you'll be asked to share it. Writing it down may also help you really understand why it feels so relatable to you.
+Also write down anything that resonates with you. Writing it down may help you really understand why it feels so relatable to you.
 
 ## Set the stage
 
