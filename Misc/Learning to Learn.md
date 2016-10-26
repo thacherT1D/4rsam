@@ -163,10 +163,6 @@ Picture someone who's struggling with a part of this process, maybe with clearin
 
 When you're finished, find someone new who you haven't talked with yet and act like this struggling student. Your partner will then pretend to be a doctor by diagnosing the issue and prescribing a concrete step that you can do get healthy again. Once you've been diagnosed and prescribed, switch roles with your partner.
 
-## Final exercise
-
-As a final exercise, please complete a short series of questions by scrolling to the top of this page, clicking the 'Questions' tab, and then writing down your thoughts.
-
 ## Resources
 
 - [Modalities](https://en.wikipedia.org/wiki/Differentiated_instruction)
