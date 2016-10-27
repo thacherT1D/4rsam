@@ -1,6 +1,4 @@
-## Terminal
-
-Included in macOS is the **Terminal** — an app that runs a Unix shell.
+Included in macOS is the **Terminal**—an app that runs a Unix shell.
 
 A **Unix shell** is a command line user interface between you and your computer's operating system. You're probably most familiar with the graphical user interface of an operating system. While that's technically a shell too, most developers think of the textual, command line interface when they hear to word _shell_. macOS blends both the graphical and the command line interfaces beautifully which is why it's so popular with developers.
 
@@ -8,7 +6,7 @@ The first Unix shell was released in 1971 and yet developers continue to incorpo
 
 ### Discover the Terminal
 
-Let's get our hands dirty and have some fun. :paw_prints:
+Let's get our hands dirty and have some fun. 🐾
 
 First, use Spotlight to launch the Terminal app by pressing the `Command` + `Spacebar` keys at the same time, typing the word "terminal" into the search field, and then pressing the `Enter` key.
 
@@ -75,9 +73,7 @@ Now, every new Terminal window will look like this.
 
 ![](https://i.imgur.com/87bHvEF.png)
 
-----
-
-## Optional: Add Universal Keyboard Shortcuts
+### Optional: Add Universal Keyboard Shortcuts
 
 Keyboard shortcuts on macOS typically consist of one or more of the following keys.
 
@@ -111,11 +107,6 @@ When you're done, it should look like this.
 
 ![](https://i.imgur.com/wzhNmHr.png)
 
----
+### Next Step
 
-## Next Steps
-
-Ask your instructor which of these articles you should use (but don't go through both):
-
-- [ZSH](Shells/ZSH.md)
-- [Fish](Shells/Fish.md)
+Install and configure [ZSH](Shells/ZSH.md)
