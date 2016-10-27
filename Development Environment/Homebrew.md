@@ -1,12 +1,6 @@
-# Install Homebrew
-
-## Objectives
-
-By the end of this article you should be able to run `brew doctor` and see "Ready to brew!"
-
-## Description
-
 Now that your Terminal is setup, it's time to install [Homebrew](http://brew.sh/), the de facto package manager for OS X. If you've never heard of a package manager, think of it as an app store for **free** command line programs.
+
+### Install Homebrew
 
 To get started, run the following command in your shell. It'll download and run a script file that downloads and installs Homebrew onto your development environment. So meta! 🤘
 
@@ -34,7 +28,7 @@ Otherwise, you'll see something like this.
 
 ![](https://i.imgur.com/JPB9Gnn.png)
 
-**TIP:** Run this command periodically as Homebrew doesn't automatically update itself. :sweat:
+**TIP:** Run this command periodically as Homebrew doesn't automatically update itself. 😓
 
 ### Verify Homebrew
 
@@ -48,8 +42,6 @@ And you'll see something like this.
 
 ![](https://i.imgur.com/DWfdE3D.png)
 
----
+### Next Step
 
-## Next Steps
-
-Install [Git](Git.md) - A Version Control System
+Install and configure [Git](Git.md)
