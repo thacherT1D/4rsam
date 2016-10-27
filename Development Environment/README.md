@@ -63,8 +63,6 @@ However, we want you to think about your tools so you can understand what their 
 
 The following instructions will help you install and configure a web development environment using tools that adhere to the Unix philosophy. Let's get started.
 
----
+### Next Steps
 
-## Next Steps
-
-Get started by [Installing Chrome](Chrome.md)
+Install and configure [Chrome](Chrome.md)
