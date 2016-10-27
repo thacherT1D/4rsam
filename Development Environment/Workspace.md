@@ -37,8 +37,6 @@ In Terminal, run:
 mkdir ~/workspace
 ```
 
----
+### Next Step
 
-## Next Steps
-
-Now you are ready to [Deploy a Web App with Surge](../Deployment/Surge.md)!
+Deploy a web application with [Surge](../Deployment/Surge.md)

@@ -24,8 +24,6 @@ https://support.apple.com/en-us/HT204085
 
 https://www.google.com/search?q=password+managers
 
-## Next
+### Next Step
 
-Consider installing some [Optional Additional Tools](Additional Tools.md) if you want to geek out, or:
-
-[Create a workspace directory](Workspace.md) so you can start writing some code!
+Configure the [Terminal](Terminal.md)

@@ -109,4 +109,4 @@ When you're done, it should look like this.
 
 ### Next Step
 
-Install and configure [ZSH](Shells/ZSH.md)
+Install and configure [Homebrew](Homebrew.md)

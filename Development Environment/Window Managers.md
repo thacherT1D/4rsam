@@ -1,5 +1,3 @@
-# Window Managers
-
 ## Objectives
 
 By the end of this article you should be able to:
@@ -32,8 +30,6 @@ http://spectacleapp.com/
 
 https://github.com/fikovnik/ShiftIt
 
----
+### Next Step
 
-## Next
-
-Figure out how you will [Store Passwords](Password Manager.md).
+Install a [password manager](Password Manager.md).

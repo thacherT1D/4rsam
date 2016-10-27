@@ -159,4 +159,6 @@ http-server
 
 ### Next Step
 
-Configure the shell's [environment variables](Environment Variables.md)
+Consider installing some [Optional Additional Tools](Additional Tools.md) if you want to geek out, or:
+
+Create a [workspace](Workspace.md)

@@ -1,4 +1,4 @@
-Now that your Terminal is setup, it's time to install [Homebrew](http://brew.sh/), the de facto package manager for OS X. If you've never heard of a package manager, think of it as an app store for **free** command line programs.
+[Homebrew](http://brew.sh/) is the de facto package manager for OS X. If you've never heard of a package manager, think of it as an app store for **free** command line programs.
 
 ### Install Homebrew
 
@@ -44,4 +44,4 @@ And you'll see something like this.
 
 ### Next Step
 
-Install and configure [Git](Git.md)
+Install and configure [ZSH](Shells/ZSH.md)

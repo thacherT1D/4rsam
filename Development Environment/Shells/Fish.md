@@ -1,8 +1,8 @@
-## Install and Configure Fish
+[Fish](https://fishshell.com/) is a smart and user-friendly command line shell. Remember, a shell is simply the user interface between you and your computer's operating system.
 
-Using Homebrew, you can now install [Fish](https://fishshell.com/), a smart and user-friendly command line shell. Remember, a shell is simply the user interface between you and your computer's operating system.
+There are many command line shells available to choose from, each with their own strengths. Since it's easy to switch back and forth at any time, I recommend you give Fish a try.
 
-There are many command line shells available to choose from, each with their own strengths.
+### Install Fish
 
 To get started, run the following command.
 
@@ -30,11 +30,11 @@ Now, quit the Terminal app by pressing the `Command` + `Q` keys at the same time
 
 ![](https://i.imgur.com/h2qvEez.png)
 
-Welcome to Fish! :tropical_fish:
+Welcome to Fish! 🐠
 
-#### Fish: Improve the fish prompt
+### Improve the fish prompt
 
-The prompt is the visual cornerstone of any shell, so let's change it to be both functional and glamorous. :nail_care:
+The prompt is the visual cornerstone of any shell, so let's change it to be both functional and glamorous. 💅
 
 To download and install a better prompt, run the following command.
 
@@ -59,7 +59,7 @@ Here's a quick break down of what you're seeing.
 | `~` (home directory)  | Name of your working directory         |
 | `$`                   | Prompt symbol                          |
 
-#### Fish: Update the autocomplete
+### Update the autocomplete
 
 Fish's auto-completions enhance the user experience of most command line tools.
 
@@ -93,7 +93,7 @@ And you'll see something like this.
 
 ![](https://i.imgur.com/ShGjo1s.png)
 
-#### Fish: Leverage your history
+### Leverage your history
 
 Fish keeps a record of every command you've ever run. You can use that history to your advantage.
 
@@ -113,8 +113,6 @@ To use the auto-suggestion, press the right arrow ➡ key and hit the `Enter` ke
 
 **TIP:** Use the up arrow ⬆ and the down arrow ⬇ keys to cycle through your entire history of commands.
 
----
+### Next Step
 
-## Next Steps
-
-Install [Homebrew](../Homebrew.md) - A Package Manager
+Install and configure [Atom](Atom.md)

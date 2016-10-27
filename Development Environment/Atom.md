@@ -106,4 +106,4 @@ curl https://gist.githubusercontent.com/JordanMajd/122409a4e130f7e45c34a59cfc668
 
 ### Next Step
 
-Configure the [Terminal](Terminal.md)
+Configure the shell's [environment variables](Environment Variables.md)

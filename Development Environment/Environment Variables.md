@@ -62,4 +62,4 @@ Since Homebrew installs new commands to the `/usr/local/bin` directory, Homebrew
 
 ### Next Step
 
-Install a [window manager](Window Managers.md)
+Install and configure [Git](Git.md)

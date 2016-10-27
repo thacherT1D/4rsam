@@ -12,4 +12,4 @@ NOTE: you can also download the mobile app.
 
 ### Next Step
 
-Install and configure [Atom](Atom.md)
+Install a [window manager](Window Managers.md)
