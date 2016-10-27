@@ -1,14 +1,6 @@
-# Install and Configure Git
+[Git](https://git-scm.com/) is a version control system which is a tool that allows you to track the changes you make to a project.
 
-[Git](https://git-scm.com/) is the version control system of choice among choosy developers. :neckbeard:
-
-Git allows you to both keep track of changes you've made to your own files as youll as collaborate with other developers.
-
-## Prereqs
-
-This article assumes that you have a working installation of [Homebrew](Homebrew.md)
-
-## Install Git
+### Install Git
 
 To get started, run the following command.
 
@@ -26,6 +18,8 @@ And you'll see something like this.
 
 ![](https://i.imgur.com/Gwx0LOn.png)
 
+### Configure Git
+
 Like artists, programmers sign their work. Let's configure Git to sign your commits with your name and email address.
 
 **WARNING:** Before running the following commands, replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` with the name and email from [your GitHub account](https://github.com/settings/profile).
@@ -35,11 +29,11 @@ git config --global user.name 'YOUR FULL NAME'
 git config --global user.email 'YOUR EMAIL ADDRESS'
 ```
 
-## Setup SSH Keys
+### Create SSH Keys
 
 SSH Keys are a pair of public and private keys. These keys can be used to cryptographically sign and encrypt data. You can use it as a way to identify and authorize yourself with other people and computers. You will be using SSH to authorize yourself with Github.
 
->**Note:** You may have set this up during your prework, if you have skip to Step Two to ensure it works.
+**NOTE:** You may have set this up during your prework, if you have skip to Step Two to ensure it works.
 
 **Step One:**
 
@@ -66,7 +60,7 @@ instead of
 git clone https://github.com:USERNAME/OTHERREPOSITORY.git
 ```
 
-## Optional: Git Extras
+### Optional: Git Extras
 
 Next, run this command to download and install some awesome Git colors, handy aliases for common Git subcommands, and extra Git configuration that'll make your life easier when connecting to GitHub from the command line.
 
@@ -74,8 +68,8 @@ Next, run this command to download and install some awesome Git colors, handy al
 curl -fsSL https://git.io/vKZJ8 | sh
 ```
 
----
+We'll go over these later. For now, relish in your victory of making it this far. 🎉
 
-## Next Steps
+### Next Step
 
-- Install [Node](Node.md) - A JavaScript Environment
+Install and play with [Node](Node.md)
