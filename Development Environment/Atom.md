@@ -1,6 +1,6 @@
-# Install and Configure Atom
-
 [Atom](https://atom.io/) is a hackable text editor for the 21st century.
+
+### Install Atom
 
 To get started, [download Atom](https://atom.io/download/mac), unzip the archive file, and drag the app icon into your `/Applications` folder.
 
@@ -8,48 +8,41 @@ Once installed, use Spotlight to launch Atom by pressing the `Command` + `Spaceb
 
 ![](https://i.imgur.com/fuVq4T5.jpg)
 
-Close all the open tabs by typing `Command` + `W`.
+You can close all the open tabs by typing `Command` + `W`.
+
+### Configure Atom
 
 Next, navigate to the `Atom > Preferences` menu item by pressing the `Command` + `,` keys at the same time.
 
-Under the **Settings** tab, change the following:
+Under the **Settings** tab, in the **Editor Settings** section, change the following:
 
-| Name                               | Value              |
-|------------------------------------|--------------------|
-| Show Indent Guide                  | :white_check_mark: |
-| Soft Wrap                          | :white_check_mark: |
-| Soft Wrap At Preferred Line Length | :white_check_mark: |
+| Name                               | Value   |
+|------------------------------------|---------|
+| Font Family                        | Menlo   |
+| Font Size                          | 18      |
+| Show Indent Guide                  | ✅      |
+| Soft Wrap                          | ✅      |
+| Soft Wrap At Preferred Line Length | ✅      |
 
-NOTE: you may also want to change the font family to "Menlo" and change the font size to be more readable.
+Under the **Packages** tab, search for the core package called **autosave**. Then, click the **Settings** button and change the following:
 
-Under the **Install** tab, install the following:
+| Name    | Value   |
+|---------|---------|
+| Enabled | ✅      |
 
-| Name                           | Type    |
-|--------------------------------|---------|
-| file-icons                     | Package |
-| language-fish-shell            | Package |
-| tomorrow-night-eighties-syntax | Theme   |
+Under the **Install** tab, with the **Package** button highlighted, install the following:
 
-Under the **Themes** tab, choose either `Solarized Light` or `Solarized Dark`
-
-When you're done, close the preferences tab by pressing the `Command` + `W` keys  at the same time.
-
-## Consider Other Themes
-
-You may prefer another theme such as "Tomorrow Night Eighties".  To try it out:
-
-Under the **Install** tab, install the following:
-
-| Name                           | Type    |
-|--------------------------------|---------|
-| tomorrow-night-eighties-syntax | Theme   |
+| Name       | Type    |
+|------------|---------|
+| file-icons | Package |
 
 Under the **Themes** tab, choose the following:
 
-| Name                           | Type         |
-|--------------------------------|--------------|
-| Tomorrow Night Eighties        | Syntax Theme |
+| Name           | Type         |
+|----------------|--------------|
+| Solarized Dark | Syntax Theme |
 
+When you're done, close the preferences tab by pressing the `Command` + `W` keys at the same time.
 
 ### Install the Shell Commands
 
@@ -63,25 +56,25 @@ To verify Atom is wired up correctly, run the following command.
 atom ~/Downloads
 ```
 
-And atom will open and display the list of files in your downloads folder on the left.
+And the contents of your `Downloads` directory will be displayed in Atom's left sidebar.
 
-## Atom Packages
+### Atom Packages
 
-There are two ways to install a package, using Atom or using the terminal.
+There are two ways to install a package, using Atom or using the Terminal.
 
 **To install** a package via Atom:
 
-1. Open up the settings panel with the shortcut `cmd` + `,`.
-2. On the left navbar click `Install`.
-3. Search for the package you would like and click install.
+1. Open up the settings panel with the shortcut `Command` + `,`.
+2. On the left sidebar, click the `Install` tab.
+3. Search for the package you would like and click the `Install` button.
 
-**To install** a package via terminal, use the `Atom Package Manager` command:
+**To install** a package via the Terminal, use the `Atom Package Manager` command:
 
-```bash
+```shell
 apm install <package-name>
 ```
 
->**NOTE:** depending on how you previously installed Atom, you may need to add the `apm` command to your path in order to use it.
+**NOTE:** depending on how you previously installed Atom, you may need to add the `apm` command to your path in order to use it.
 
 You can quickly search for packages [here](https://atom.io/packages).
 
@@ -111,11 +104,6 @@ curl https://gist.githubusercontent.com/JordanMajd/122409a4e130f7e45c34a59cfc668
 
 **Step Three:** In order for the linter to read the config files, Atom must be restarted : `ctrl` + `option` + `cmd` + `l`.
 
-**Resources:**
-- [Atom Packages](https://atom.io/packages)
+### Next Step
 
----
-
-## Next Steps
-
-Now you are ready for the [Terminal](Terminal.md)
+Configure the [Terminal](Terminal.md)
