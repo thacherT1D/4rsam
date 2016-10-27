@@ -57,9 +57,11 @@ There are four essential tasks that web developers do on a daily basis.
 1. **Commit code** to a repository once it's correct
 1. **Deploy code** to a production environment
 
-Many developers prefer a development environment composed of multiple specialized tools rather than one monolithic tool called an IDE (Integrated Development Environment). This approach is called the **Unix philosophy** and it emphasizes using simple, short, clear, modular, and extensible tools that can be easily maintained and repurposed by developers other than its creators. Though each tool has it's own learning curve, any one of them is easily replaceable when the need arises.
+Some developers prefer a development environment comprised of a single, monolithic tool called an Integrated Development Environment (or IDE). A few popular IDEs include Xcode, Visual Studio, and Web Storm. IDEs are great for people who don't want to think very hard about their tools.
 
-The following instructions will help you install and configure a development environment so you can complete the essential tasks of a web developer using tools that adhere to the Unix philosophy. Let's get started.
+However, we want you to think about your tools so you can understand what their trade-offs are. That's why, in this class, you'll learn how to build a development environment composed of multiple specialized tools. This approach is called the **Unix philosophy** and it emphasizes using modular and extensible tools. Though each tool has its own learning curve, any one of them is easily replaceable when the need arises.
+
+The following instructions will help you install and configure a web development environment using tools that adhere to the Unix philosophy. Let's get started.
 
 ---
 
