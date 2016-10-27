@@ -18,6 +18,6 @@ Scroll down a bit more until you find the **Send a "Do Not Track" request with y
 
 ![](https://i.imgur.com/NAWbEim.png)
 
-### Next Steps
+### Next Step
 
-Install [Slack](Slack.md) for communication
+Install and configure [Slack](Slack.md)
