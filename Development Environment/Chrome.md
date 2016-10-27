@@ -8,6 +8,8 @@ Once installed, use Spotlight to launch Chrome by pressing the `Command` + `Spac
 
 ![](https://i.imgur.com/qnONHeW.jpg)
 
+**TIP:** If prompted, allow Chrome to become your default browser.
+
 ### Configure Chrome
 
 Navigate to the `Chrome > Preferences` by pressing the `Command` + `,` keys at the same time. Scroll to the bottom of the page and click the **Show advanced settings...** link.
@@ -17,6 +19,8 @@ Navigate to the `Chrome > Preferences` by pressing the `Command` + `,` keys at t
 Scroll down a bit more until you find the **Send a "Do Not Track" request with your browser traffic** and check the box.
 
 ![](https://i.imgur.com/NAWbEim.png)
+
+**TIP:** On your own time, you may want to consider installing an [ad blocking extension](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom) to Chrome.
 
 ### Next Step
 
