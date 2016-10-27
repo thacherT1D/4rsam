@@ -1,6 +1,6 @@
-# Install Node
-
 [Node](https://nodejs.org/) is an open-source, cross-platform runtime system for developing applications in JavaScript. In other words, it runs JavaScript outside the browser.
+
+### Install Node
 
 There are 2 common ways to install node:
 
@@ -9,11 +9,7 @@ There are 2 common ways to install node:
 
 Consult your instructor to see which option they'd prefer.
 
-## Prereqs
-
-This article assumes you have a working installation of [Homebrew](Homebrew.md)
-
-## Option A: Install Node Directly with Homebrew
+#### Option A: Install Node Directly with Homebrew
 
 To get started, run the following command.
 
@@ -33,15 +29,13 @@ And you'll see something like this.
 
 [Continue to Discover the Node Shell](#discover-the-node-shell)
 
-## Option B: Install NVM (Node Version Manager) + Node
+#### Option B: Install NVM (Node Version Manager) + Node
 
 Run this command in Terminal:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 ```
-
-### Install Node from NVM
 
 The first thing that you need to do is get latest version of Node.js. You can do this with the command
 
@@ -51,33 +45,11 @@ nvm install node
 
 You can set up nvm to use the latest version of node with the following commands. You can copy-paste them into the terminal.
 
-If you are using zsh:
-
 ```bash
 echo >> ~/.zshrc
 echo '# setting up nvm to use the latest version of node.js' >> ~/.zshrc
 echo 'nvm use node' >> ~/.zshrc
 ```
-
-If you are using Fish:
-
-```bash
-echo >> ~/.config/fish/config.fish
-echo '# setting up nvm to use the latest version of node.js' >> ~/.config/fish/config.fish
-echo 'nvm use node' >> ~/.config/fish/config.fish
-```
-
-If you are using Bash:
-
-```bash
-echo >> ~/.bashrc
-echo '# setting up nvm to use the latest version of node.js' >> ~/.bashrc
-echo 'nvm use node' >> ~/.bashrc
-```
-
-[Continue to Discover the Node Shell](#discover-the-node-shell)
-
----
 
 ### Discover the Node Shell
 
@@ -105,12 +77,9 @@ And you'll see something like this.
 
 The Node shell is a great tool for learning and experimenting with JavaScript.
 
-Play around with JavaScript on your own.
+Play around with JavaScript on your own. When you're done, type `.exit` and press the `Enter` key to quit the Node shell.
 
-When you're done you can exit the Node Shell by:
-
-- typing `.exit` and pressing the `Enter` key
-- typing `COMMAND + d`
+**TIP:** You can also press the `Command` + `D` keys to exit the Node shell.
 
 ### Discover the Node Interpreter
 
@@ -140,7 +109,7 @@ Save the file and run the program using the Node interpreter.
 node ~/Desktop/test.js
 ```
 
-Weird, nothing happened. Remember, the Node interpreter won't print anything unless told. Jerk! :triumph:
+Weird, nothing happened. Remember, the Node interpreter won't print anything unless told. Jerk! 😤
 
 Change the program so it reads like this.
 
@@ -164,7 +133,7 @@ Play around with JavaScript on your own. When you're done, remove the `test.js` 
 rm ~/Desktop/test.js
 ```
 
-## Node Packages
+### Install Node Packages
 
 Node comes with a tool called [NPM](http://npmjs.com/) or `Node Package Manager`. It is a [package manager](https://en.wikipedia.org/wiki/Package_manager) for Javascript applications, tools and modules (just like Homebrew is a package manager for your computer). [NPM's website](http://npmjs.com/) can be used to search for packages.
 
@@ -188,8 +157,6 @@ http-server
 - [npmjs.com](http://npmjs.com/)
 - [http-server](https://www.npmjs.com/package/http-server)
 
----
+### Next Step
 
-## Next Steps
-
-Setup [Environment Variables](Environment Variables.md) for productivity
+Configure the shell's [environment variables](Environment Variables.md)
