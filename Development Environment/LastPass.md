@@ -28,4 +28,4 @@ Congratulations, you're now using a password manager! 🎉
 
 ### Next Step
 
-Configure the [Terminal](Terminal.md)
+Install and configure [Slack](Slack.md)

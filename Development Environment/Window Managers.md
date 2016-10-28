@@ -32,4 +32,4 @@ https://github.com/fikovnik/ShiftIt
 
 ### Next Step
 
-Install [LastPass](LastPass.md)
+Configure the [Terminal](Terminal.md)

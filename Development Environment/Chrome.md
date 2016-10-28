@@ -24,4 +24,4 @@ Scroll down a bit more until you find the **Send a "Do Not Track" request with y
 
 ### Next Step
 
-Install and configure [Slack](Slack.md)
+Install and play with [LastPass](LastPass.md)
