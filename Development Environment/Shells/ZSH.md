@@ -12,8 +12,6 @@ In the terminal run:
 
 You may have to type in your password if it asks you, and when you are done with this, in the terminal, type `zsh`.
 
----
+### Next Step
 
-## Next Steps
-
-Install [Homebrew](../Homebrew.md) - A Package Manager
+Install and configure [Atom](Atom.md)
