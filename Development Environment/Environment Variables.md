@@ -4,7 +4,13 @@ A shell allows you to control the contents of its **environment variables**, whi
 
 When executed, many command line tools look up specific environment variables and use their contents as implicit input. For example, Git uses the `EDITOR` environment variable to open your preferred text editor when you forget to include a commit message.
 
-Environment variables like `EDITOR` can be set in a shell's startup file. While your shell's startup file is handy, add the following settings.
+Environment variables like `EDITOR` can be set in a shell's startup file. Open your shell's startup file in Atom.
+
+```shell
+atom ~/.zshrc
+```
+
+And add the following settings.
 
 ```shell
 # Atom
