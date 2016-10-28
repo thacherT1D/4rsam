@@ -14,7 +14,7 @@
 1. [Node - A JavaScript Environment](./Development Environment/Node.md)
 1. [Environment Variables for productivity](./Development Environment/Environment Variables.md)
 1. [A Window Manager for quickly moving windows around](./Development Environment/Window Managers.md)
-1. [LassPass - a password manager](./Development Environment/LassPass.md)
+1. [LastPass - a password manager](./Development Environment/LastPass.md)
 1. [Optional Additional Tools (if you want to geek out)](./Development Environment/Additional Tools.md)
 1. [Workspace Folder for organization](./Development Environment/Workspace.md)
 

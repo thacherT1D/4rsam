@@ -10,7 +10,7 @@ When you're finished, you should see something like this.
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/411/Screen_Shot_2016-10-28_at_7.16.01_AM.png)
 
-### Play with LassPass
+### Play with LastPass
 
 Visit the [Galvanize Member Portal](https://members.galvanize.com/) and login with the credentials you received in your welcome email. Once you've logged in successfully, you should see something like this.
 

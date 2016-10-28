@@ -32,4 +32,4 @@ https://github.com/fikovnik/ShiftIt
 
 ### Next Step
 
-Install [LassPass](LassPass.md)
+Install [LastPass](LastPass.md)
