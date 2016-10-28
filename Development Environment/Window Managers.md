@@ -32,4 +32,4 @@ https://github.com/fikovnik/ShiftIt
 
 ### Next Step
 
-Install a [password manager](Password Manager.md).
+Install [LassPass](LassPass.md)
