@@ -1,10 +1,10 @@
 [LastPass](https://lastpass.com/) is a free password manager that makes it easy to store and access all your passwords, WiFi logins, PIN codes, and more. If you don't currently use a password manager, now is a great time to invest in one. As a professional web developer, you're going to be responsible for hundreds, if not thousands, of passwords throughout your career.
 
-**NOTE:** Kudos if you already use a password manager. Feel free to continue using the one you have.
+**NOTE:** You can purchase LastPass Premium to sync your passwords across all your other computers and mobile devices.
 
 ### Install LastPass
 
-To get started, [install the LastPass extension for Chrome](https://lastpass.com/?lpInstall) and create an account. All of your passwords will live securely in a LastPass vault on their servers using state-of-the-art encryption. The password you create for your LastPass account will become your master key and will be used to decrypt your vault. In effect, it will be the last password you have to create manually, so make it long and memorable.
+Kudos if you already use a password manager. Feel free to continue using the one you have. Otherwise, [install the LastPass extension for Chrome](https://lastpass.com/?lpInstall) and create an account. All of your passwords will live securely in a LastPass vault on their servers using state-of-the-art encryption. The password you create for your LastPass account will become your master key and will be used to decrypt your vault. In effect, it will be the last password you have to create manually, so make it long and memorable.
 
 **NOTE:** Don't worry, your master key is never sent to LastPass' servers.
 
