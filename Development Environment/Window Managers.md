@@ -32,4 +32,4 @@ https://github.com/fikovnik/ShiftIt
 
 ### Next Step
 
-Configure the [Terminal](Terminal.md)
+Install and configure [Chrome](Chrome.md)

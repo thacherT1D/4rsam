@@ -26,7 +26,7 @@ By the end of this article, your development machine should have the following s
 - [Node](Node.md) - A JavaScript Environment
 - [Environment Variables](Environment Variables.md) for productivity
 - [A Window Manager](Window Managers.md) for quickly moving windows around
-- [LastPass](LastPass.md) - a password manager
+- [LassPass](LassPass.md) - a password manager
 - [Optional Additional Tools](Additional Tools.md) if you want to geek out
 - [Workspace Folder](Workspace.md) for organization
 - [Deploy a Web App with Surge](../Deployment/Surge.md)
@@ -65,4 +65,4 @@ The following instructions will help you install and configure a web development
 
 ### Next Step
 
-Install and configure [Chrome](Chrome.md)
+Install and configure [Slack](Slack.md)
