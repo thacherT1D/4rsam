@@ -1,28 +1,30 @@
-# Password Managers
+[LastPass](https://lastpass.com/) is a free password manager that makes it easy to store and access all your passwords, WiFi logins, PIN codes, and more. If you don't currently use a password manager, now is a great time to invest in one. As a professional web developer, you're going to be responsible for hundreds, if not thousands, of passwords throughout your career.
 
-If you don't currently use a password manager, now is a great time to invest in one. As a professional web developer, you're going to be responsible for hundreds, if not thousands, of passwords throughout your career.
+**NOTE:** Kudos if you already use a password manager. Feel free to continue using the one you have.
 
-There are many password managers on the market.  Some popular ones are:
+### Install LastPass
 
-## 1Password
+To get started, [install the LastPass extension for Chrome](https://lastpass.com/?lpInstall) and create an account. All of your passwords will live securely in a LastPass vault on their servers using state-of-the-art encryption. The password you create for your LastPass account will be used to decrypt your vault. In effect, it will be the last password you have to create manually, so make it long and memorable.
 
-[1Password](https://agilebits.com/onepassword)'s user-friendly interface makes it easy to generate and access all your account credentials on all your devices. More importantly, you can trust the company behind 1Password to employ the best security practices available.
+When you're finished, you should see something like this.
 
-While it's not a free application, there is a 30-day free trial. And if you become a satisfied customer, you can use the `MacPowerUsers` coupon code to take 20% off the price.
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/411/Screen_Shot_2016-10-28_at_7.16.01_AM.png)
 
-## LastPass
+### Play with LassPass
 
-https://lastpass.com/
+Visit the [Galvanize Member Portal](https://members.galvanize.com/) and login with the credentials you received in your welcome email. Once you've logged in successfully, you should see something like this.
 
-## Keychain / iCloud KeyChain
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/412/Screen_Shot_2016-10-28_at_7.16.23_AM.png)
 
-http://www.macworld.com/article/2862956/how-to-better-manage-passwords-with-keychain-access.html
+Click on the "Save Site" button to save your credentials to your LastPass vault and you should see something like this.
 
-https://support.apple.com/en-us/HT204085
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/413/Screen_Shot_2016-10-28_at_7.18.21_AM.png)
 
-## Or search for others
+Finally, if you refresh your LastPass vault, re-authenticate, and you should see something like this.
 
-https://www.google.com/search?q=password+managers
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/414/Screen_Shot_2016-10-28_at_7.18.50_AM.png)
+
+Congratulations, you're now using a password manager! 🎉
 
 ### Next Step
 
