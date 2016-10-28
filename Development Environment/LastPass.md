@@ -4,7 +4,9 @@
 
 ### Install LastPass
 
-To get started, [install the LastPass extension for Chrome](https://lastpass.com/?lpInstall) and create an account. All of your passwords will live securely in a LastPass vault on their servers using state-of-the-art encryption. The password you create for your LastPass account will be used to decrypt your vault. In effect, it will be the last password you have to create manually, so make it long and memorable.
+To get started, [install the LastPass extension for Chrome](https://lastpass.com/?lpInstall) and create an account. All of your passwords will live securely in a LastPass vault on their servers using state-of-the-art encryption. The password you create for your LastPass account will become your master key and will be used to decrypt your vault. In effect, it will be the last password you have to create manually, so make it long and memorable.
+
+**NOTE:** Don't worry, your master key is never sent to LastPass' servers.
 
 When you're finished, you should see something like this.
 
