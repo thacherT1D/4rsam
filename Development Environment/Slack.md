@@ -1,14 +1,17 @@
-We use [Slack](https://slack.com/) for all formal communication. It is highly recommended that you use the desktop app instead of just using the web app.
+[Slack](https://slack.com/) is a messaging application that brings team communication together into one simple place.
 
-### Why?
+### Install Slack
 
-When it's an app you can switch to it with `Command` + `Tab`.  When it's open in a browser, it takes longer to get to it and also read documentation / preview your local development apps etc...
+While it's possible to use Slack in your web browser, you'll find the native Slack application for macOS much more convenient for everyday use. To get started, [install Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) from the Mac   App Store.
 
-### How
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/415/Screen_Shot_2016-10-29_at_7.19.57_AM.png)
 
-https://itunes.apple.com/us/app/slack/id803453959?mt=12
+Once installed, close the Mac App Store by pressing the `Command` + `Q` keys at the same time. Now, use Spotlight to launch the Slack app by pressing the `Command` + `Spacebar` keys at the same time, typing the word "slack" into the search field, and then pressing the `Enter` key.
 
-NOTE: you can also download the mobile app.
+[INSERT SCREENSHOT]
+
+
+
 
 ### Next Step
 
