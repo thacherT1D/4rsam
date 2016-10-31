@@ -12,7 +12,8 @@ To get started, [find Magnet](https://itunes.apple.com/us/app/slack/id803453959?
 
 Use Spotlight to launch Magnet by pressing the `Command` + `Spacebar` keys at the same time, typing the word "magnet" into the search field, and then pressing the `Enter` key.
 
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/440/Screen_Shot_2016-10-31_at_7.22.08_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/447/Screen_Shot_2016-10-31_at_7.22.08_AM.png)
+
 
 Then, you'll be presented with a brief overview window of how Magnet works. Before closing the window, make sure you check the "Launch Magnet at login" checkbox at the bottom.
 
