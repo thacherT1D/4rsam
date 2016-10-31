@@ -20,16 +20,16 @@ And you'll see something like this.
 
 ## Start a new project
 
-If you don't have one, make a `workspace` directory to hold all of your upcoming projects.
+If you don't have one, make a directory to hold all of your upcoming projects for the first week.
 
 ```
-mkdir ~/workspace
+mkdir -p ~/workspace/week01
 ```
 
 Then change into the directory.
 
 ```
-cd ~/workspace
+cd ~/workspace/week01
 ```
 
 Now make a `GITHUB-USERNAME.surge.sh` project directory replacing `GITHUB-USERNAME` with your actual GitHub username.
