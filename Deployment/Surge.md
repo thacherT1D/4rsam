@@ -1,16 +1,8 @@
-# Deploy a web app with Surge
-
-## Prereqs
-
-This article assume that you have:
-
-- A working `node` installation that does not require `sudo` to install packages
-- A `~/workspace` directory
-- A working installation of Git
+Now, you'll deploy a tiny web page with [Surge](https://surge.sh/), a static web publishing platform for front-end developers.
 
 ## Install Surge
 
-Now, you'll deploy a tiny web page with [Surge](https://nodejs.org/), a static web publishing platform for front-end developers. To deploy to Surge, you'll use a command line program that's installed via [npm](https://www.npmjs.com/), the package manager for JavaScript software that comes with Node.
+To deploy to Surge, you'll use a command line program that's installed via [npm](https://www.npmjs.com/), the package manager for JavaScript software that comes with Node.
 
 To get started, run the following command.
 
