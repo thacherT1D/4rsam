@@ -2,7 +2,7 @@ You may be surprised to learn that there are no universal keyboard shortcuts on 
 
 ### Install Magnet
 
-To get started, [find Magnet](https://itunes.apple.com/us/app/slack/id803453959?mt=12) in the Mac App Store and press the "Install" button. Magnet costs $1.00 on the App Store. Hopefully this won't break the bank. 🏦
+To get started, [find Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12) in the Mac App Store and press the "Install" button. Magnet costs $1.00 on the App Store. Hopefully this won't break the bank. 🏦
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/436/Screen_Shot_2016-10-31_at_7.13.10_AM.png)
 

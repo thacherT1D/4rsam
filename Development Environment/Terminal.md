@@ -1,6 +1,6 @@
 Included in macOS is the **Terminal**—an app that runs a Unix shell.
 
-A **Unix shell** is a command line user interface between you and your computer's operating system. You're probably most familiar with the graphical user interface of an operating system. While that's technically a shell too, most developers think of the textual, command line interface when they hear to word _shell_. macOS blends both the graphical and the command line interfaces beautifully which is why it's so popular with developers.
+A **Unix shell** is a command line user interface between you and your computer's operating system. You're probably most familiar with the graphical user interface of an operating system. While that's technically a shell too, most developers think of the textual, command line interface when they hear the word _shell_. macOS blends both the graphical and the command line interfaces beautifully which is why it's so popular with developers.
 
 The first Unix shell was released in 1971 and yet developers continue to incorporate them into their workflows. That's because Unix shells are both interactive and scriptable. In other words, the same commands that control an operating system from the command line can be included in a script file. A **script file** is commonly used to automate repetitive tasks and increase developer productivity. In this article, you'll download and run script files to speed up the installation and configuration of your development environment.
 

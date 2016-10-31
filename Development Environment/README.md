@@ -15,7 +15,7 @@ By the end of this article, your development machine will have the following sof
 - [Slack](Slack.md) - a chat tool
 - [Spectacle](Spectacle.md) - a window manager
 - [Chrome](Chrome.md) - a web browser
-- [LassPass](LassPass.md) - a password manager
+- [LastPass](LastPass.md) - a password manager
 - [Terminal](Terminal.md) - a terminal emulator
 - [Homebrew](Homebrew.md) - a package manager
 - [ZSH](ZSH.md) - a command line shell
