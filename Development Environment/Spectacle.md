@@ -12,9 +12,9 @@ Use Spotlight to launch Spectacle by pressing the `Command` + `Spacebar` keys at
 
 Unlike most apps, Spectacle won't appear in the Dock at the bottom of the screen. Instead, its icon will appear in the menu bar at the top. Click on the icon to see a list of its window-arranging actions.
 
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/428/Screen_Shot_2016-10-31_at_6.43.12_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/434/Screen_Shot_2016-10-31_at_7.07.29_AM.png)
 
-For example, to maximize a window using Spectacle, open a Finder window by clicking on its icon in the Dock.
+For example, to maximize a window using Spectacle, first open a Finder window by clicking on its icon in the Dock.
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/430/Screen_Shot_2016-10-31_at_6.51.59_AM.png)
 
@@ -36,7 +36,7 @@ To make a window cover the right half of the screen, press the `Command` + `Opti
 
 To center a window on the screen, press the `Command` + `Option` + `C` keys.
 
-![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/433/Screen_Shot_2016-10-31_at_6.59.34_AM.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/435/Screen_Shot_2016-10-31_at_7.07.43_AM.png)
 
 ### Next Step
 
