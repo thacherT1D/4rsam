@@ -18,9 +18,7 @@ By the end of this article, your development machine should have the following s
 - [Slack](Slack.md) for communication
 - [Atom](Atom.md) - A Text Editor
 - [Terminal](Terminal.md)
-- A nice shell - one of:
-  - [ZSH](Shells/ZSH.md) OR
-  - [Fish](Shells/Fish.md)
+- [ZSH](ZSH.md) - a command-line shell
 - [Homebrew](Homebrew.md) - A Package Manager
 - [Git](Git.md) - A Version Control System
 - [Node](Node.md) - A JavaScript Environment
