@@ -15,7 +15,7 @@ Learning is essential to being a programmer. It's a huge field with new technolo
 
 At an average college or code school, you'd learn a lot, but you'd probably fall back into the same habits and mindsets you had before you started. Yes, you'd be better off for having gone back to school, but you wouldn't really have been transformed.
 
-With our strong instructional team, teaching techniques, curriculum, and environment, you can learn two to three times as much at Galvanize. But because we operate on habits and mindsets, with the intention of helping you become a better learner, you can continue to grow at an accelerated rate even after the Galvanize program is over. Maybe not as much as when you're in school, but certainly at much faster rate than when you started.
+With our strong instructional team, teaching techniques, curriculum, and environment, you can learn two to three times as much at Galvanize. But because we operate on habits and mindsets, with the intention of helping you become a better learner, you can continue to grow at an accelerated rate even after the Galvanize program is over. Maybe not as much as when you're in school, but certainly at a much faster rate than when you started.
 
 This difference in learning speed before and after the program is what it means to be transformed and to become a new person.
 
@@ -53,7 +53,7 @@ If you haven't already done so, take a moment to turn off all the distractions t
 
 ### Clarify the what and the why
 
-The second part of setting the stage is clarifying that what and the why.
+The second part of setting the stage is clarifying the what and the why.
 
 The what is your objective, your goal, or whatever you're trying to achieve when you're setting out to learn. In our lessons, your instructors will explicitly say what the objectives are. But when you're off learning on your own, come up with an objective of sorts to help you clarify and distill what you hope to achieve at the end of your session.
 
@@ -73,7 +73,7 @@ Imagine that a friend came to Galvanize and asked you, "Hey everyone is talking 
 
 ## Play
 
-So the second major step to becoming a better learner is to play. This word is chosen very carefully as children learn at much faster rate than adults and neurological research suggests that play has a big part of it. When you think about it, it makes sense too. Children just have different attitudes when it comes to what they're trying learn and why they're doing it.
+So the second major step to becoming a better learner is to play. This word is chosen very carefully as children learn at a much faster rate than adults and neurological research suggests that play has a big part of it. When you think about it, it makes sense too. Children just have different attitudes when it comes to what they're trying learn and why they're doing it.
 
 Like setting the stage, this step of the process consists of three sub-steps as well.
 
