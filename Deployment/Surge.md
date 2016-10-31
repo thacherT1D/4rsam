@@ -176,7 +176,7 @@ When asked about the project path, just press the `Enter` key to use the current
 
 ![](https://i.imgur.com/rh2I4gE.png)
 
-Before moving on, **please write down your account credentials in your password manager**.
+Before moving on, **save your account credentials in your password manager**.
 
 After having written down your Surge account credentials somewhere, open your deployed tiny web page in a browser by running the following command.
 
@@ -190,11 +190,9 @@ You should see something like this.
 
 ![](https://i.imgur.com/3koEnB4.png)
 
-Bravo! :tada:
+Bravo! 🎉
 
----
-
-## Next Steps
+### Next Steps
 
 If you are seeing this article as part of your setup, continue to:
 
