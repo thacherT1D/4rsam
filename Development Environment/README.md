@@ -1,7 +1,5 @@
 This article will help you setup a web development environment on [macOS Sierra](http://www.apple.com/macos/sierra/) and above. By the end, your computer will be configured with the same state-of-the-art tools used by professional web developers.
 
-## Prereqs
-
 This article assumes your computer is up to the task of coding.
 
 - Is virus and malware free
@@ -12,22 +10,22 @@ This article assumes your computer is up to the task of coding.
 
 ## Objectives
 
-By the end of this article, your development machine should have the following software installed and configured:
+By the end of this article, your development machine will have the following software installed and configured.
 
-- [Chrome](Chrome.md) - A Web Browser
-- [Slack](Slack.md) for communication
-- [Atom](Atom.md) - A Text Editor
-- [Terminal](Terminal.md)
-- [ZSH](ZSH.md) - a command-line shell
-- [Homebrew](Homebrew.md) - A Package Manager
-- [Git](Git.md) - A Version Control System
-- [Node](Node.md) - A JavaScript Environment
-- [Environment Variables](Environment Variables.md) for productivity
+- [Slack](Slack.md) - a chat tool
 - [Spectacle](Spectacle.md) - a window manager
+- [Chrome](Chrome.md) - a web browser
 - [LassPass](LassPass.md) - a password manager
-- [Optional Additional Tools](Additional Tools.md) if you want to geek out
-- [Workspace Folder](Workspace.md) for organization
-- [Deploy a Web App with Surge](../Deployment/Surge.md)
+- [Terminal](Terminal.md) - a terminal emulator
+- [Homebrew](Homebrew.md) - a package manager
+- [ZSH](ZSH.md) - a command line shell
+- [Atom](Atom.md) - a text editor
+- [Environment variables](Environment Variables.md) - for configuring your environment
+- [Git](Git.md) - a version control system
+- [Node](Node.md) - a JavaScript environment
+- [Optional Additional Tools](Additional Tools.md) - if you want to geek out
+- [Workspace](Workspace.md) - for organization your projects
+- [Surge](../Deployment/Surge.md) - a deployment service
 
 Finally you'll have a chance to learn some [Essential Keyboard Shortcuts](Keyboard Shortcuts.md)
 
