@@ -161,4 +161,4 @@ http-server
 
 Consider installing some [Optional Additional Tools](Additional Tools.md) if you want to geek out, or:
 
-Create a [workspace](Workspace.md)
+Deploy a web application with [Surge](../Deployment/Surge.md)

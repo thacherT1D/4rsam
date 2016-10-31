@@ -14,7 +14,6 @@
 1. [Spectacle - a window manager](./Development Environment/Spectacle.md)
 1. [LastPass - a password manager](./Development Environment/LastPass.md)
 1. [Optional Additional Tools (if you want to geek out)](./Development Environment/Additional Tools.md)
-1. [Workspace Folder for organization](./Development Environment/Workspace.md)
 
 ## Test out your setup
 

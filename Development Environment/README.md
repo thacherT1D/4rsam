@@ -24,7 +24,6 @@ By the end of this article, your development machine will have the following sof
 - [Git](Git.md) - a version control system
 - [Node](Node.md) - a JavaScript environment
 - [Optional Additional Tools](Additional Tools.md) - if you want to geek out
-- [Workspace](Workspace.md) - for organization your projects
 - [Surge](../Deployment/Surge.md) - a deployment service
 
 Finally you'll have a chance to learn some [Essential Keyboard Shortcuts](Keyboard Shortcuts.md)

@@ -82,4 +82,4 @@ brew cask install postman
 
 ## Next Steps
 
-[Create a workspace directory](Workspace.md) so you can start writing some code!
+Deploy a web application with [Surge](../Deployment/Surge.md)
