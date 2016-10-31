@@ -24,7 +24,7 @@ Once opened, press the `Command` + `Option` + `C` keys at the same time to maxim
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/429/Screen_Shot_2016-10-31_at_6.44.01_AM.png)
 
-It's important to note the distinction between a maximized window and a  fullscreened window. When a window is **maximized**, you can still switch between applications by pressing the `Command` + `Tab` keys like usual. However, when a window is **fullscreened**, you cannot tab-switch between applications anymore. Instead, must swipe left or right with 3 fingers on the trackpad. For this reason, we recommend that you get in the habit of using maximized windows rather than fullscreened windows. In the end, you'll be much more productive.
+It's important to note the distinction between a maximized window and a  fullscreened window. When a window is **maximized**, you can still switch between applications by pressing the `Command` + `Tab` keys like usual. However, when a window is **fullscreened**, you cannot tab-switch between applications anymore. Instead, you must swipe left or right with 3 fingers on the trackpad. For this reason, we recommend that you get in the habit of using maximized windows rather than fullscreened windows. In the end, you'll be much more productive.
 
 To make a window cover the left half of the screen, press the `Command` + `Option` + `←` keys.
 
