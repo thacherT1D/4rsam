@@ -44,4 +44,4 @@ And you should finally see something that looks like this.
 
 ### Next Step
 
-Install a [window manager](Window Managers.md)
+Install and play with [Spectacle](Spectacle.md)

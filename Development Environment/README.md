@@ -25,7 +25,7 @@ By the end of this article, your development machine should have the following s
 - [Git](Git.md) - A Version Control System
 - [Node](Node.md) - A JavaScript Environment
 - [Environment Variables](Environment Variables.md) for productivity
-- [A Window Manager](Window Managers.md) for quickly moving windows around
+- [Spectacle](Spectacle.md) - a window manager
 - [LassPass](LassPass.md) - a password manager
 - [Optional Additional Tools](Additional Tools.md) if you want to geek out
 - [Workspace Folder](Workspace.md) for organization
