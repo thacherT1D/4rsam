@@ -11,41 +11,41 @@ Now it's time to review.
 
 ## Questions
 
-### What are the two environments you worked with today?
+#### What are the two environments you worked with today?
 
-### What is the Terminal? What does it allow you to do?
+#### What is the Terminal? What does it allow you to do?
 
-### Why would you use the Slack app instead of the Slack website?
+#### Why would you use the Slack app instead of the Slack website?
 
-### What is Atom?
+#### What is Atom?
 
-### Which shell do you have installed? What's the path to the config file for your shell?
+#### Which shell do you have installed? What's the path to the config file for your shell?
 
-### What is Homebrew? What role does it play in your development environment?
+#### What is Homebrew? What role does it play in your development environment?
 
-### What is Git?
+#### What is Git?
 
-### What is Node?
+#### What is Node?
 
-### What are two ways you'll interact with Node?
+#### What are two ways you'll interact with Node?
 
-### What are two environment variables that are important to understand?
+#### What are two environment variables that are important to understand?
 
-### What is LastPass?
+#### What is LastPass?
 
-### What directory will you use to store all of your projects during your time here?
+#### What directory will you use to store all of your projects during your time here?
 
-### What is Surge?
+#### What is Surge?
 
-### Without using the mouse, change between Terminal, Chrome, and Atom.
+#### Without using the mouse, change between Terminal, Chrome, and Atom.
 
-### In Atom, open multiple files, switch between them, and close some.
+#### In Atom, open multiple files, switch between them, and close some.
 
-### In Chrome, open multiple tabs, switch between them, and close some.
+#### In Chrome, open multiple tabs, switch between them, and close some.
 
-### In Chrome, open multiple windows, switch between them, and close some.
+#### In Chrome, open multiple windows, switch between them, and close some.
 
-### In the Terminal, open multiple tabs, switch between them, and close some.
+#### In the Terminal, open multiple tabs, switch between them, and close some.
 
 ### Next Step
 

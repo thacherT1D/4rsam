@@ -63,7 +63,7 @@ Here's a quick break down of what you're seeing.
 
 Fish's auto-completions enhance the user experience of most command line tools.
 
-To update fish's completions, run the following command.
+To update Fish's completions, run the following command.
 
 ```
 fish_update_completions
