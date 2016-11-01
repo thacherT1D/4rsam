@@ -18,7 +18,7 @@ Atom is a text editor.
 
 #### Which shell do you have installed? What's the path to the config file for your shell?
 
-ZSH and `~/.zshrc`
+Fish and `~/.config/fish/config.fish`
 
 #### What is Homebrew? What role does it play in your development environment?
 
@@ -49,7 +49,7 @@ LastPass is a password manager extension for Chrome.
 
 #### What directory will you use to store all of your projects during your time here?
 
-`~/workspace`
+`~/Projects`
 
 #### What is Surge?
 
@@ -62,15 +62,15 @@ Surge is a web hosting service with a command line tool that makes it easy to de
 #### In Atom, open multiple files, switch between them, and close some.
 
 `Command` + `T`
-`Command` + `Shift` + `→`
-`Command` + `Shift` + `←`
+`Command` + `Option` + `→`
+`Command` + `Option` + `←`
 `Command` + `W`
 
 #### In Chrome, open multiple tabs, switch between them, and close some.
 
 `Command` + `T`
-`Command` + `Shift` + `→`
-`Command` + `Shift` + `←`
+`Command` + `Option` + `→`
+`Command` + `Option` + `←`
 `Command` + `W`
 
 #### In Chrome, open multiple windows, switch between them, and close some.
@@ -82,8 +82,8 @@ Surge is a web hosting service with a command line tool that makes it easy to de
 #### In the Terminal, open multiple tabs, switch between them, and close some.
 
 `Command` + `T`
-`Command` + `Shift` + `→`
-`Command` + `Shift` + `←`
+`Command` + `Option` + `→`
+`Command` + `Option` + `←`
 `Command` + `W`
 
 ### Next Step

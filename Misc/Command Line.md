@@ -213,6 +213,8 @@ ls -hl
 
 ![](https://i.imgur.com/oUiKGx6.png)
 
+**TIP:** In Fish, the `ll` command is the same as `ls -hl` only faster to type.
+
 ### Hidden files and directories
 
 You may not realize it, but there are **hidden files and directories** scattered throughout your computer's operating system. All it takes to hide a file or directory is to start its name with a period `.` prefix. Hidden items can be revealed by using the `-a` flag with the `ls` command.
@@ -222,6 +224,8 @@ ls -hal
 ```
 
 ![](https://i.imgur.com/AIKsLux.png)
+
+**TIP:** In Fish, the `la` command is the same as `ls -hal` only faster to type.
 
 Many programs have configuration settings that they want stored out of plain sight from users. Traditionally, these settings are stored in hidden files and directories in your home directory. As a professional web developer, you'll want to access and modify these settings and, throughout this course, you'll be doing just that.
 
