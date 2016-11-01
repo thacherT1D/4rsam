@@ -1,71 +1,89 @@
-# Final Check Answers
-
 ## Questions
 
-- What are the two environments you worked with today?
-  > development and production (surge)
+### What are the two environments you worked with today?
 
-- What is Terminal?  What does it allow you to do?
-  > Terminal is an application that allows you to enter commands into your computer's shell
+Development and production (i.e. Surge)
 
-- Why would you use the Slack app instead of the Slack website?
-  > Because it's faster to COMMAND+TAB to an application as opposed to navigating through multiple browser windows / tabs
+### What is the Terminal? What does it allow you to do?
 
-- What is Atom?
-  > A text editor
+The Terminal is an application that allows you to enter commands into your computer's shell.
 
-- Which shell do you have installed?  What's the path to the config file for your shell?
-  > Either zsh, fish or bash
+### Why would you use the Slack app instead of the Slack website?
 
-- What is Homebrew?  What role does it play in your development environment?
-  > Homebrew is a package manager that allows you to install unix command line applications on your mac
+Because it's faster to `Command` + `Tab` to an application as opposed to navigating through multiple browser windows or tabs.
 
-- What is Git?
-  > Git is a version control system that allows you to store all the changes you make to files, and share your code with other developers
+### What is Atom?
 
-- What is Node?
-  > Node is a JavaScript environment that lets you run JavaScript on a "server" (ex. your computer) as opposed to in a browser
+Atom is a text editor.
 
-- What are two ways you'll interact with Node?  Explain both
-  > A) Through the REPL / Node Shell which is an interactive way to run JavaScript
-  > B) Through the Node Interpreter which will run JavaScript files
+### Which shell do you have installed? What's the path to the config file for your shell?
 
-- What are two environment variables that are important to understand?  Explain both.
-  > The PATH environment variable is a list of folders your shell searches when you run a program like `atom`
-  > The EDITOR environment variable controls which text editor opens up, especially when working with Git commit messages
+ZSH and `~/.zshrc`
 
-- What Password Manager have you installed?  How do you store a password in it?
-  > You should have _an_ answer here 😀
+### What is Homebrew? What role does it play in your development environment?
 
-- What folder will you use to store all of your projects during your time here?
-  > ~/workspace
+Homebrew is a package manager that allows you to install Unix command line applications on macOS.
 
-- What is Surge?
-  > Surge is a web hosting service with a command-line API that makes it easy to deploy frontend web apps
+### What is Git?
 
+Git is a version control system that allows you to store all the changes you make to files and share your code with other developers.
+
+### What is Node?
+
+Node is a JavaScript environment that lets you run JavaScript outside of the browser.
+
+### What are two ways you'll interact with Node?
+
+1. Through the REPL / Node shell which is an interactive way to run JavaScript.
+1. Through the Node interpreter which will run JavaScript files.
+
+### What are two environment variables that are important to understand?
+
+The `PATH` environment variable is a list of directories your shell searches when you run a program like `atom`.
+
+The `EDITOR` environment variable controls which text editor opens up, especially when working with Git commit messages.
+
+### What is LastPass?
+
+LastPass is a password manager extension for Chrome.
+
+### What folder will you use to store all of your projects during your time here?
+
+`~/workspace`
+
+### What is Surge?
+
+Surge is a web hosting service with a command line tool that makes it easy to deploy static web apps.
 
 ## Exercises
 
-- Without using the mouse, perform the following tasks:
-  - Change between Terminal, Chrome and Atom
-    > COMMAND + TAB
+### Without using the mouse, change between Terminal, Chrome, and Atom.
 
-  - In Atom, open multiple files, switch between them and close some
-    > COMMAND+T to search for files to open
-    > COMMAND+SHIFT+LEFT ARROW / COMMAND+SHIFT+RIGHT ARROW to switch
-    > COMMAND+W to close
+`Command` + `Tab`
 
-  - In Chrome, open multiple tabs, switch between them and close some
-    > COMMAND+T to create a new tab
-    > COMMAND+SHIFT+LEFT ARROW / COMMAND+SHIFT+RIGHT ARROW to switch
-    > COMMAND+W to close
+### In Atom, open multiple files, switch between them, and close some.
 
-  - In Chrome, open multiple windows, switch between them and close some
-    > COMMAND+N to create a new window
-    > COMMAND+TILDE (~) to switch
-    > COMMAND+W to close
+`Command` + `T`
+`Command` + `Shift` + `→`
+`Command` + `Shift` + `←`
+`Command` + `W`
 
-  - In terminal, open multiple tabs, switch between them and close some
-    > COMMAND+T to create a new tab
-    > COMMAND+SHIFT+LEFT ARROW / COMMAND+SHIFT+RIGHT ARROW to switch
-    > COMMAND+W to close
+### In Chrome, open multiple tabs, switch between them, and close some.
+
+`Command` + `T`
+`Command` + `Shift` + `→`
+`Command` + `Shift` + `←`
+`Command` + `W`
+
+### In Chrome, open multiple windows, switch between them, and close some.
+
+`Command` + `N`
+`Command` + `~`
+`Command` + `W`
+
+### In the Terminal, open multiple tabs, switch between them, and close some.
+
+`Command` + `T`
+`Command` + `Shift` + `→`
+`Command` + `Shift` + `←`
+`Command` + `W`
