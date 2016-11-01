@@ -78,7 +78,7 @@ When finished, the Finder Preferences should look something like this.
 
 ### The current user
 
-Whenever you log into macOS, that user account becomes the **current user**. Additionally, when you start a new shell session in the Terminal, the current user is automatically logged in to the shell. Use Spotlight to launch the Terminal app by pressing the `Command` + `Spacebar` keys at the same time, typing the word "terminal" into the search field, and then pressing the `Enter` key.
+Whenever you log into macOS, that user account becomes the **current user**. Additionally, when you start a new shell session in the Terminal, the current user is automatically logged in to the shell. Use Spotlight to launch the Terminal application.
 
 There are a two fundamental commands that display the state of the current user from within the shell—the `whoami` and `groups` commands.
 
