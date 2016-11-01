@@ -1,4 +1,4 @@
-[Homebrew](http://brew.sh/) is the de facto package manager for OS X. If you've never heard of a package manager, think of it as an app store for **free** command line programs.
+[Homebrew](http://brew.sh/) is the de facto package manager for macOS. If you've never heard of a package manager, think of it as an app store for **free** command line programs.
 
 ### Install Homebrew
 
