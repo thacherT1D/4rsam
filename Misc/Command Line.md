@@ -6,7 +6,7 @@
 
 ## What's the Unix shell?
 
-A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from a Unix shell includes manipulating directories, files, and programs.
+A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from a Unix shell include manipulating directories, files, and programs.
 
 ```shell
 cd Downloads
@@ -80,7 +80,7 @@ When finished, the Finder Preferences should look something like this.
 
 Whenever you log into macOS, that user account becomes the **current user**. Additionally, when you start a new shell session in the Terminal, the current user is automatically logged in to the shell. Use Spotlight to launch the Terminal application.
 
-There are a two fundamental commands that display the state of the current user from within the shell—the `whoami` and `groups` commands.
+There are two fundamental commands that display the state of the current user from within the shell—the `whoami` and `groups` commands.
 
 The `whoami` command displays the account name of the current user.
 
@@ -98,7 +98,7 @@ groups
 
 ![](https://imgur.com/TsyyfL9.png)
 
-It's common for a user account to belong to a many groups. The only important groups to mention are `staff` and `admin`. In macOS, every user account belongs to the `staff` group, while only administrator accounts belong to the `admin` group.
+It's common for a user account to belong to many groups. The only important groups to mention are `staff` and `admin`. In macOS, every user account belongs to the `staff` group, while only administrator accounts belong to the `admin` group.
 
 **TIP:** If your user account doesn't belong to the `admin` group, it'll be difficult to manage your development machine.
 
@@ -116,7 +116,7 @@ From the command line, you can reference the current working directory with the 
 
 The **home directory** is a special folder in your computer's file system that belongs to only your user account. This is where you'll store your documents, downloads, music, projects, etc. as well as store the configuration settings of many command line programs. In the Unix shell, the tilde `~` character represents the home directory.
 
-Each user has their own home directory. Prior to the personal computer revolution in the 1980's, many people frequently shared the same computer because they were so relatively expensive. Thus operating systems' with multiple accounts, and therefore home directories, was commonplace. Since computers are relatively cheaper nowadays, most operating systems only have one human user account.
+Each user has their own home directory. Prior to the personal computer revolution in the 1980's, many people frequently shared the same computer because they were so relatively expensive. Thus operating systems with multiple accounts, and therefore home directories, was commonplace. Since computers are relatively cheaper nowadays, most operating systems only have one human user account.
 
 ### The `pwd` command
 
@@ -180,7 +180,7 @@ In what order are the files and directories displayed?
 
 Like many shell commands, the behavior of `ls` can be modified. By default, it displays the files and directories in your current working directory in alphabetical order spread over multiple columns. However, you can modify that behavior by providing one or more command flags.
 
-The `l` flag changes the behavior of `ls` to display the items in a long format. So in addition to the file and directories names, it'll display permission, ownership, size, and the last modification time of each item in the directory.
+The `l` flag changes the behavior of `ls` to display the items in a long format. So in addition to the file and directory names, it'll display permission, ownership, size, and the last modification time of each item in the directory.
 
 ```
 ls -l
@@ -215,7 +215,7 @@ ls -hl
 
 ### Hidden files and directories
 
-You may not realize it, but there are **hidden files and directories** scattered throughout your computer's operating system. All it takes to hide a file or directory is to start its name with period `.` prefix. Hidden items can be revealed by using the `-a` flag with the `ls` command.
+You may not realize it, but there are **hidden files and directories** scattered throughout your computer's operating system. All it takes to hide a file or directory is to start its name with a period `.` prefix. Hidden items can be revealed by using the `-a` flag with the `ls` command.
 
 ```
 ls -hal
@@ -300,7 +300,7 @@ echo ~
 
 ### Exercise
 
-Is the output from this command the as the output you got from the `pwd` command?
+Is the output from this command the same as the output you got from the `pwd` command?
 
 ### File system navigation
 
