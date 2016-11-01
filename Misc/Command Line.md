@@ -1,32 +1,32 @@
-This lesson will introduce you to the fundamental commands of macOS. By the end, you'll be able to describe and use commands to manipulate the following concepts:
+## Objectives
 
-* [User accounts](#user-accounts) (`sudo, chmod, chown`)
-* Working directories (`pwd`)
-* Home directories (`~/`)
-* Unix paths
-* Command flags
-* Manual pages ("*the only command you'll ever need*.")
-* Graphical user interfaces
-* Environment variables
-* File system management (`touch, mkdir, rm, rmdir, cp, mv`)
-* File system navigation (`ls, cd`)
-* File system redirection (`|, >, >>`)
-* Search your bash history with `history | grep` and `ctrl+r`.
-* Use [www.explainshell.com](http://www.explainshell.com).
+- Explain what the Unix shell is.
+- Explain why the Unix shell is important.
+- Manipulate the operating system using Unix shell commands.
 
-## Why are there so many commands!?
+## What's the Unix shell?
 
-The Unix philosophy for command line programs is: “Do one thing and do it well”. Output of one program can be the input for another so commands can be easily chained together.
+A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from Unix shell include managing files, directories, and programs.
 
-Typing is faster than clicking in many cases, and the command line is easily scriptable.
+You're probably most familiar with the graphical user interface of an operating system. While that's technically a shell too, most developers think of the textual, command line interface when they hear the word _shell_. macOS blends both the graphical and the command line interfaces beautifully which is why it's so popular with developers.
 
-## Getting Started
+### Exercise
 
-Before getting stared, use Spotlight to launch the `Terminal` app by pressing the `Command` + `Spacebar` keys at the same time, typing the word "terminal" into the search field, and then pressing the `Enter` key.
+Take a moment to think back to the Unix shell commands you ran during the development environment setup. Write down a any of the commands you remember typing in to the command line. Afterwards, turn to a neighbor and compare your notes.
 
-## User accounts
+## Why is the Unix shell important?
 
-macOS is a multi-user operating system which means it manages one or more user accounts. Each user account on macOS has a **full name** and an **account name**.
+The first Unix shell was released in 1971 and yet developers continue to incorporate them into their workflows. That's because Unix shells are both interactive and scriptable. In other words, the same commands that control an operating system from the command line can be included in a script file. A **script file** is commonly used to automate repetitive tasks and increase developer productivity. In this article, you'll download and run script files to speed up the installation and configuration of your development environment.
+
+Though in this article, we'll only cover the essentials, there are many shell commands to learn and master. That's because each commands follows the **Unix philosophy**, which is to do one thing and do it well. Though each command has its own learning curve, any one of them is easily replaceable when the need arises.
+
+### Exercise
+
+In your own words, write down why the command line is so important. After about 30 seconds, your instructor will cold call on the class and ask what was written down.
+
+## How do you manipulate the operating system using Unix shell commands?
+
+Before diving in to the shell, let's take a look at a fundamental Unix concept—user accounts. Like all Unix-based operating system, macOS is a multi-user operating system which means it manages one or more user accounts. Each user account on macOS has a **full name** and an **account name**.
 
 ### The full name
 
@@ -98,7 +98,7 @@ It's common for a user account to belong to a many groups. The only important gr
 
 Find out the account name and groups of the current user of your computer.
 
-## Working directories
+### Working directories
 
 At any given time, the Unix shell has a **current working directory**. By convention, the current working directory is displayed in your shell's prompt. That way, you know where you are in the your computer's file system hierarchy at all times.
 
@@ -124,7 +124,7 @@ pwd
 
 What's the current working directory of your shell?
 
-## File system paths
+### File system paths
 
 In any computer system, a **path** represents a location in the file system. Paths are similar to addresses in the physical world except they list a location from the general to the specific. It's a bit like addressing an envelope backwards.
 
@@ -164,7 +164,7 @@ ls
 
 In what order are the files and directories displayed?
 
-## Command flags
+### Command flags
 
 **Command flags** are a common way to specify options for command line programs. If a command allows a command flag to be specified, it typically is a single dash `-` or double dash `--` immediately followed by a letter, number, symbol, or word. Some commands even accept multiple command flags to be specified at the same time. You'll see some examples of this shortly.
 
@@ -217,7 +217,7 @@ Many programs have configuration settings that they want stored out of plain sig
 
 **TIP:** In fish, the `la` command is the same as `ls -hal` only faster to type.
 
-## Manual pages
+### Manual pages
 
 A **manual page** (or man page) is a form of documentation that explains how a command works. It includes what the command does, the specifics of how you run it, and what arguments and flags it accepts. Some man pages are a little hard to get your head around. But they're fairly consistent in their structure, so once you get the hang of it it's not too bad. You can access a man page by using the `man` command.
 
@@ -241,7 +241,7 @@ Were you right? If not, in what way were you wrong? What happened that surprised
 
 **TIP:** http://explainshell.com/ is a great resource for understanding [complex shell commands](http://explainshell.com/explain?cmd=ls+-hal).
 
-## Graphical user interfaces
+### Graphical user interfaces
 
 The file structure you see in the textual command line interface is the same as the one you see in the graphical interface via the Finder application. The only difference is the Finder tends to hide some of the files and directories to keep things simple for most users.
 
@@ -263,7 +263,7 @@ open .
 
 Why can't you see any hidden files and directories in the Finder?
 
-## Review
+### Review
 
 - What's the command for displaying the username of the current user?
 - What's the command for printing the current working directory?
