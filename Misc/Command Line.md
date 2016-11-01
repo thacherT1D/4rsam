@@ -190,7 +190,9 @@ ls -l
 
 ### Exercise
 
-How can you tell if an item is a file or directory? **Hint:** look at its permissions.
+How can you tell if an item is a file or directory?
+
+**Hint:** Look at the first letter of each row.
 
 ### Human-friendly sizes
 
@@ -211,8 +213,6 @@ ls -hl
 
 ![](https://i.imgur.com/oUiKGx6.png)
 
-**TIP:** In fish, the `ll` command is the same as `ls -hl` only faster to type.
-
 ### Hidden files and directories
 
 You may not realize it, but there are **hidden files and directories** scattered throughout your computer's operating system. All it takes to hide a file or directory is to start its name with period `.` prefix. Hidden items can be revealed by using the `-a` flag with the `ls` command.
@@ -222,8 +222,6 @@ You may not realize it, but there are **hidden files and directories** scattered
 ![](https://i.imgur.com/AIKsLux.png)
 
 Many programs have configuration settings that they want stored out of plain sight from users. Traditionally, these settings are stored in hidden files and directories in your home directory. As a professional web developer, you'll want to access and modify these settings and, throughout this course, you'll be doing just that.
-
-**TIP:** In fish, the `la` command is the same as `ls -hal` only faster to type.
 
 ### Manual pages
 
