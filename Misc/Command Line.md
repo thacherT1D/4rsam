@@ -1,5 +1,3 @@
-# Intro the Command Line
-
 This lesson will introduce you to the fundamental commands of macOS. By the end, you'll be able to describe and use commands to manipulate the following concepts:
 
 * [User accounts](#user-accounts) (`sudo, chmod, chown`)
