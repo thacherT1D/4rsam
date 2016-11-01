@@ -217,7 +217,9 @@ ls -hl
 
 You may not realize it, but there are **hidden files and directories** scattered throughout your computer's operating system. All it takes to hide a file or directory is to start its name with period `.` prefix. Hidden items can be revealed by using the `-a` flag with the `ls` command.
 
-`ls -hal`
+```
+ls -hal
+```
 
 ![](https://i.imgur.com/AIKsLux.png)
 
@@ -300,9 +302,7 @@ echo ~
 
 Is the output from this command the as the output you got from the `pwd` command?
 
-## File system navigation
-
-### The File System is a Tree
+### File system navigation
 
 Install the `tree` command with Homebrew.
 
@@ -310,97 +310,66 @@ Install the `tree` command with Homebrew.
 brew install tree
 ```
 
-**Try This**:
+Then try this.
 
 ```
-$ tree -L 1
-.
-├── Applications
-├── Desktop
-├── Documents
-├── Downloads
-├── Dropbox
-├── Library
-├── Movies
-├── Music
-├── Pictures
-├── Projects
-└── Public
-
-11 directories, 0 files
+tree ~
 ```
 
-Your file system is a "tree". This is a very common data structure in computer programming. In a *tree* you have a series of **"nodes"** that are connected to their **"parent node"**.
+And this.
 
-In our file system *nodes* can be directories or files. The parent of any file or directory is the directory that contains that file or directory. There is exactly one directory in the file system that doesn't have a parent. This is called the **"root directory"**.
+```
+tree -L 1 ~
+```
+
+Your file system is a tree. This is a very common structure in computer programming. In a tree, you have a series of nodes that are connected to their parent node. In your file system, a **node** is a file or directory. The **parent node** of any file or directory is the directory that contains it. There's exactly one directory in the file system that doesn't have a parent called the **root directory**.
 
 ### Root Directory
 
-Another important directory is the root directory `/`
-
-**Try This**:
+Another important directory is the root directory `/`. You can move to the root directory with the following command.
 
 ```
-$ cd /  
-$ pwd
+cd /
 ```
 
-The files on your computer are structured in a tree. The 'top' of the file system is know as the `root` directory. That may sound upside down, but in our case the root is at the top.
+The files on your computer are structured in a tree. The top of the file system is know as the `root` directory. That may sound upside down, but in our case the root is at the top.
 
-We can move to the **root directory** with the command `cd /`.  
-We can move back to your **home directory** with the command `cd ~`.  
+You can move back to your home directory with the following command.
 
 ```
-$ cd ~  
-$ pwd
-/Users/ryansobol
+cd ~
 ```
 
 Remember, the `~` always refers to the current user's home directory, this is handy for scripts and for you, but you can use the full path just as well if you know it, `pwd` will give you the full path.
 
 ### Parent directories
 
-**Try this:**
+Try moving up one directory.
 
 ```
-cd ../
-pwd
+cd ..
 ```
 
 What happened? Which directory are you in?
 
-In the terminal, the `.` character refers to the current working directory and two dots `..` refers to the current directories **parent directory**. What happens if you try this:
+In the terminal, the `.` character refers to the current working directory and two dots `..` refers to the current directories **parent directory**. The parent directory `../` is a relative path you can use it anywhere you would use a path.
 
 ```
-$ cd /
-$ cd ..
+ls -l ~/Documents/../
 ```
 
-The terminal ignores `cd ..` in this case. the root directory is the only directory in your entire file system that does not have a parent.  
+The above command means list the contents of the parent of `~/Documents/`. So it listed the contents of the home directory.
 
-(`../`) is a relative path you can use it anywhere you would use a path. What happens if we type:
+### Exercise
+
+What happens if you try running the following commands.
 
 ```
-$ ls -l ~/Documents/../
-
-total 0
-drwxr-xr-x+ 11 Guest  _guest  374 Nov  4 10:47 .
-drwxr-xr-x   6 root   admin   204 Nov  4 10:47 ..
-drwx------+  3 Guest  _guest  102 Nov  4 10:47 Desktop
-drwx------+  3 Guest  _guest  102 Nov  4 10:47 Documents
-drwx------+  4 Guest  _guest  136 Nov  4 10:47 Downloads
-drwx------+ 26 Guest  _guest  884 Nov  4 10:47 Library
-drwx------+  3 Guest  _guest  102 Nov  4 10:47 Movies
-drwx------+  3 Guest  _guest  102 Nov  4 10:47 Music
-drwx------+  3 Guest  _guest  102 Nov  4 10:47 Pictures
-drwxr-xr-x+  4 Guest  _guest  136 Nov  4 10:47 Public  
+cd /
+cd ..
 ```
 
-The command means, list the contents of the parent of `~/Documents/` So it listed the contents of `~`, or the home directory.
-
-Any path starting with a `/` is said to be an absolute path and it is the complete path starting from the root directory. Relative paths (ones that do not begin with a `/`) are relative to your current location.
-
-## Tab Completion
+### Tab Completion
 
 Hitting `<TAB>` autocompletes.  Hit `<TAB>` constantly. Try it right now! Type:
 
@@ -430,7 +399,7 @@ Spend three minutes navigating around your computer's file system from the comma
 * `cd relative/path`
 * Tab Completion
 
-## File system manipulation
+### File system manipulation
 
 ### The `mkdir` command
 
