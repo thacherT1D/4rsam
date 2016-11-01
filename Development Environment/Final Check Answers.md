@@ -47,7 +47,7 @@ The `EDITOR` environment variable controls which text editor opens up, especiall
 
 LastPass is a password manager extension for Chrome.
 
-### What folder will you use to store all of your projects during your time here?
+### What directory will you use to store all of your projects during your time here?
 
 `~/workspace`
 
