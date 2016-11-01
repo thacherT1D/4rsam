@@ -22,25 +22,25 @@ And you'll see something like this.
 
 If you don't have one, make a directory to hold all of your upcoming projects for the first week.
 
-```
+```shell
 mkdir -p ~/Projects/week01
 ```
 
 Then change into the directory.
 
-```
+```shell
 cd ~/Projects/week01
 ```
 
 Now make a `GITHUB-USERNAME.surge.sh` project directory replacing `GITHUB-USERNAME` with your actual GitHub username.
 
-```
+```shell
 mkdir wcrusher.surge.sh
 ```
 
 And change into the directory.
 
-```
+```shell
 cd wcrusher.surge.sh
 ```
 
@@ -50,7 +50,7 @@ You should see something like this.
 
 Next, initialize a new Git repository in this directory.
 
-```
+```shell
 git init
 ```
 
@@ -66,13 +66,13 @@ Now that the project's directory contains a Git repository, let's create a tiny 
 
 To get started, run the following command.
 
-```
+```shell
 touch index.html
 ```
 
 Open the project directory in Atom.
 
-```
+```shell
 atom .
 ```
 
@@ -96,7 +96,9 @@ It should look like this when you're finished.
 
 To test your tiny web page, you'll need to open it with your browser. An easy way to open a web page from the Terminal is to run the following command.
 
-`open index.html`
+```shell
+open index.html
+```
 
 And your default browser should open the file.
 
@@ -108,13 +110,13 @@ With your tiny web page working as expected, it's ready to be committed into you
 
 First, add the `index.html` file to your repository's staging area.
 
-```
+```shell
 git add index.html
 ```
 
 And then commit the changes, with a message, to your repository.
 
-```
+```shell
 git commit -m 'Add a tiny web page'
 ```
 
@@ -126,7 +128,7 @@ You're almost ready to deploy your tiny web page to Surge. However, Surge will a
 
 To add a `CNAME` file to the project directory, run the following command.
 
-```
+```shell
 touch CNAME
 ```
 
@@ -140,13 +142,13 @@ Back in Atom, open the `CNAME` file and type in `GITHUB-USERNAME.surge.sh` repla
 
 Now, add the `CNAME` file to your repository's staging area.
 
-```
+```shell
 git add CNAME
 ```
 
 And then commit the changes, with a message, to your repository.
 
-```
+```shell
 git commit -m 'Add a CNAME'
 ```
 
@@ -160,7 +162,7 @@ You're finally ready to deploy your tiny web page to Surge!
 
 To get started, run the following command.
 
-```
+```shell
 surge
 ```
 
@@ -180,7 +182,7 @@ Before moving on, **save your account credentials in your password manager**.
 
 After having written down your Surge account credentials somewhere, open your deployed tiny web page in a browser by running the following command.
 
-```
+```shell
 open http://wcrusher.surge.sh
 ```
 
