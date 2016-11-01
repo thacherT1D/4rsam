@@ -192,8 +192,6 @@ You should see something like this.
 
 Bravo! 🎉
 
-### Next Steps
+### Next Step
 
-If you are seeing this article as part of your setup, continue to:
-
-Go through the [Final Check](../Development Environment/Final Check.md) to review what you've done.
+Review what you've done with a [final check](../Development Environment/Final Check.md).
