@@ -24,9 +24,9 @@ Take a moment to think back to the Unix shell commands you ran during the develo
 
 ## Why is the Unix shell important?
 
-The first Unix shell was released in 1971 and yet developers continue to incorporate them into their workflows. That's because Unix shells are both interactive and scriptable. In other words, the same commands that control an operating system from the command line can be included in a script file. A **script file** is commonly used to automate repetitive tasks and increase developer productivity. In this article, you'll download and run script files to speed up the installation and configuration of your development environment.
+The first Unix shell was released in 1971 and yet developers continue to incorporate them into their workflows. That's because Unix shells are both interactive and scriptable. In other words, the same commands that control an operating system from the command line can be included in a script file. A **script file** is commonly used to automate repetitive tasks and increase developer productivity.
 
-Though in this article, we'll only cover the essentials, there are many shell commands to learn and master. That's because each commands follows the **Unix philosophy**, which is to do one thing and do it well. Though each command has its own learning curve, any one of them is easily replaceable when the need arises.
+In this article, we'll cover the essential Unix shell commands. However, there are many shell commands to learn and master. That's because each commands follows the **Unix philosophy**, which is to do one thing and do it well. Though each command has its own learning curve, any one of them is easily replaceable when the need arises.
 
 ### Exercise
 
