@@ -2,17 +2,25 @@
 
 - Explain what the Unix shell is.
 - Explain why the Unix shell is important.
-- Manipulate the operating system using Unix shell commands.
+- Use the Unix shell to manipulate your laptop's operating system.
 
 ## What's the Unix shell?
 
-A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from Unix shell include managing files, directories, and programs.
+A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from Unix shell include manipulate directories, files, and programs.
+
+```shell
+cd Downloads
+
+atom index.html
+
+uname
+```
 
 You're probably most familiar with the graphical user interface of an operating system. While that's technically a shell too, most developers think of the textual, command line interface when they hear the word _shell_. macOS blends both the graphical and the command line interfaces beautifully which is why it's so popular with developers.
 
 ### Exercise
 
-Take a moment to think back to the Unix shell commands you ran during the development environment setup. Write down a any of the commands you remember typing in to the command line. Afterwards, turn to a neighbor and compare your notes.
+Take a moment to think back to the Unix shell commands you ran during the development environment setup. Write down any of the commands you remember typing in to the command line. Afterwards, turn to a neighbor and compare your notes.
 
 ## Why is the Unix shell important?
 
@@ -24,7 +32,7 @@ Though in this article, we'll only cover the essentials, there are many shell co
 
 In your own words, write down why the command line is so important. After about 30 seconds, your instructor will cold call on the class and ask what was written down.
 
-## How do you manipulate the operating system using Unix shell commands?
+## How do you use the Unix shell to manipulate your laptop's operating system?
 
 Before diving in to the shell, let's take a look at a fundamental Unix concept—user accounts. Like all Unix-based operating system, macOS is a multi-user operating system which means it manages one or more user accounts. Each user account on macOS has a **full name** and an **account name**.
 
