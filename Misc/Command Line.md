@@ -6,7 +6,7 @@
 
 ## What's the Unix shell?
 
-A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from Unix shell include manipulate directories, files, and programs.
+A **Unix shell** is a command line user interface between you and your computer's operating system. In other words, a Unix shell allows you to type commands to get things done on your computer. Common tasks you can do from a Unix shell includes manipulating directories, files, and programs.
 
 ```shell
 cd Downloads
