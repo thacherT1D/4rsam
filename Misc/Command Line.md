@@ -428,14 +428,14 @@ Spend three minutes navigating around your computer's file system from the comma
 
 ### The `mkdir` command
 
-Now that we know how to move around, it's time to make some changes. We can make directories with the `mkdir` command.  
+Now that you know how to move around, it's time to make some changes. You can make directories with the `mkdir` command.
 
 >Pro-tip: WordsLikeThis are called CamelCase. Programmers frequently [argue about snake_case and CamelCase](http://programmers.stackexchange.com/questions/27264/naming-conventions-camelcase-versus-underscore-case-what-are-your-thoughts-ab)
 
 **Try This**
 
 ```
-$ cd ~/Projects
+$ cd ~/Projects/week01
 
 $ mkdir notebook
 ```
@@ -444,7 +444,7 @@ What command can you use to see the results of your handywork?
 
 ### Adding Files
 
-Let's `cd` into our new `notebook`  Look around with `ls`, and `ls -la`.  What do you see?
+Let's `cd` into your new `notebook`  Look around with `ls`, and `ls -la`.  What do you see?
 
 ### Exercise
 
@@ -667,14 +667,12 @@ Searching through history can be very useful if you know you've done something, 
 
 You can scroll up and down through all recently used commands that contain the string 'ls' using `ctrl+r` and `ctrl+shift+r` to go backwards.
 
-If you don't want to execute any of these commands, type `ctrl+c`. Control+c is a powerful command that you can use at any time to kill the currently running terminal process, or exit many terminal applications.### Terminal Cheat Sheet
+If you don't want to execute any of these commands, type `ctrl+c`. Control+c is a powerful command that you can use at any time to kill the currently running terminal process, or exit many terminal applications.
+
+### Terminal Cheat Sheet
 Bookmark this:
 
 * [http://bit.ly/terminalcheats](http://bit.ly/terminalcheats)
-
-### Exercise
-
-Solve the [Command Line Murder Mystery](https://github.com/ryansobol/clmystery). To get started, fork and clone the repo to your local machine. Further instructions can be found in the README for the mystery. Good luck!
 
 ### Additional Resources
 
