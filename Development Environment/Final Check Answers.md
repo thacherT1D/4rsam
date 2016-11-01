@@ -87,3 +87,7 @@ Surge is a web hosting service with a command line tool that makes it easy to de
 `Command` + `Shift` + `→`
 `Command` + `Shift` + `←`
 `Command` + `W`
+
+### Next Step
+
+Check out some [additional tools](Additional Tools.md) on your on time.
