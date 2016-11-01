@@ -30,7 +30,7 @@ In this article, we'll cover the essential Unix shell commands. However, there a
 
 ### Exercise
 
-In your own words, write down why the Unix shell is so important. After about 30 seconds, your instructor will cold call on the class and ask what was written down.
+In your own words, write down why the Unix shell is so important. After about a minute, your instructor will cold call on the class and ask what was written down.
 
 ## How do you use the Unix shell to manipulate your laptop's operating system?
 
