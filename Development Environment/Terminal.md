@@ -86,7 +86,7 @@ Keyboard shortcuts on macOS typically consist of one or more of the following ke
 | `Shift`     | ⇧      |
 | `Caps Lock` | ⇪      |
 
-Unsurprisingly, macOS has a bunch of built-in keyboard shortcuts that are universal to all applications. For example, `Command` + `T` is the universal keyboard shortcut for creating a new application tab. Though there are keyboard shortcuts for switching between an application's tabs, you might be surprised to learn that these not universal for all applications.
+Unsurprisingly, macOS has a bunch of built-in keyboard shortcuts that are universal to all applications. For example, `Command` + `T` is the universal keyboard shortcut for creating a new application tab. Though there are keyboard shortcuts for switching between an application's tabs, you might be surprised to learn that these are not universal for all applications.
 
 Since you'll be switching between tabs in applications like the Terminal, Google Chrome, and Atom all the time, let's add a few universal keyboard shortcuts for this.
 
