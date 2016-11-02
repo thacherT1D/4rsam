@@ -48,7 +48,7 @@ Turn to a neighbor and explain what a version control system is in your own word
 
 ## Why is a version control system important?
 
-A version control allows developers to revert a software project back to a specific revision. This is extremely useful for the times when you accidentally introduce a bug into a project. Everyone makes mistakes, even professional programmers with years of experience. With a VCS, making mistakes is no big deal. Just hop into your VCS time machine!
+A version control system allows developers to revert a software project back to a specific revision. This is extremely useful for the times when you accidentally introduce a bug into a project. Everyone makes mistakes, even professional programmers with years of experience. With a VCS, making mistakes is no big deal. Just hop into your VCS time machine!
 
 For example, imagine a VCS with three revisions.
 
