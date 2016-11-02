@@ -94,26 +94,17 @@ In your own words, write down why a VCS is so important. After about a minute, y
 
 ## What's Git?
 
-There are many different version
+There are many different VCS on the market—Git, Mercurial, SVN, CVS, Perforce, TFS, etc. In this course, we'll use [Git](https://git-scm.com/)—a free and open source version control system created by Linus Torvald, the author of Linux.
 
-- Git
-- Mercurial
-- SVN
-- Perforce
-- TFS
-- etc.
+Because Git is so powerful and flexible, it's incredibly popular among software development companies large and small. The good news is, if you understand Git, then it'll be easy to learn another VCS if the need arises.
 
-[Git](https://git-scm.com/) is a free and open source software for distributed version control.
-While there are many different version control systems, git is incredibly popular and powerful. Many companies use git, and if you understand git it will be easy to learn another version control paradigm.
+Files in a Git repository go through the following steps.
 
-Any files tracked by git typically go through 3 stages:
-
-1. Unstaged
-  * These changes will not be committed in the next commit
-1. Staged
-  * These changes will be committed in the next commit
-1. Committed
-  * Changes committed in the last commit
+| Step      | Description                                         |
+|-----------|-----------------------------------------------------|
+| Unstaged  | Changes that won't be included in the next revision |
+| Staged    | Changes that will be included in the next revision  |
+| Committed | Changes that have been included in the a revision   |
 
 ### What is GitHub?
 
