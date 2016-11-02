@@ -92,7 +92,7 @@ In your own words, write down why a VCS is so important. After about a minute, y
 
 ## What's Git?
 
-There are many different VCS on the market—Git, Mercurial, SVN, CVS, Perforce, TFS, etc. In this course, we'll use [Git](https://git-scm.com/)—a free and open source version control system created by Linus Torvald, the creator of Linux.
+There are many different VCS on the market like Git, Mercurial, SVN, CVS, Perforce, TFS, etc. In this course, we'll use [Git](https://git-scm.com/) which is a free and open source version control system created by Linus Torvald, the creator of Linux.
 
 Because Git is so powerful and flexible, it's incredibly popular among software development companies large and small. The good news is, if you understand Git, then it'll be easy to learn another VCS if the need arises.
 
