@@ -1,44 +1,107 @@
-# Track Changes with Git
-
 ## Objectives
 
-* Discuss what a Version Control System is
-* Describe the purpose of a working directory, staging area, and repository
-* Initialize a git repository with `git init`
-* Check the status of changed files in a git repository with `git status`
-* Stage new and changed files with `git add`
-* Commit staged files to the git repository with `git commit`
-* Push local commits to a remote repository with `git push`
+- Explain what a version control system is.
+- Explain why a version control system is important.
+- Explain what Git is.
+- Describe the purpose of a working directory, staging area, and repository
+- Initialize a git repository with `git init`
+- Check the status of changed files in a git repository with `git status`
+- Stage new and changed files with `git add`
+- Commit staged files to the git repository with `git commit`
+- Push local commits to a remote repository with `git push`
 
-## Version Control System
+## What's a version control system?
 
-Version control is a class of tools that programmers use to manage software projects.
-It allows you to track changes you make to files on your machine.
-This is helpful for when you screw things up!
-And you will. 😉
-And that's ok.
-Version control allows developers to revert back to a specific time and place in your code.
-Sort of like a reset button.
+A **version control system** (or VCS) is a tool that programmers use to track the changes made to files in a software project. Changes tracked by a VCS are usually identified by a number or letter code called a **revision**. Each revision is a snapshot in time of the files being tracked by the VCS.
 
-Version control allows developers to:
+For example, imagine an initial set of files in a VCS is known as revision 1.
 
-  * Keep track of changes to files over time
-  * View previous states of your project
-  * Return to a previous state of your project
-  * Manage changes to files from multiple people
-  * Make changes without worrying about stability
-  * Keep files together as a group
+```
+┌──────────────┐
+│              │
+│  Revision 1  │
+│              │
+└──────────────┘
+```
 
-There are many flavors of VCS:
+If a change is made to any file, then the resulting set of files in the VCS is known as revision 2.
 
-  * Git
-  * Mercurial
-  * SVN
-  * Perforce
-  * TFS
-  * etc.
+```
+┌──────────────┐        ┌──────────────┐
+│              │        │              │
+│  Revision 1  │───────▶│  Revision 2  │
+│              │        │              │
+└──────────────┘        └──────────────┘
+```
 
-## What is Git?
+If another change is made to any file, then the resulting set of files in the VCS is known as revision 3.
+
+```
+┌──────────────┐        ┌──────────────┐        ┌──────────────┐
+│              │        │              │        │              │
+│  Revision 1  │───────▶│  Revision 2  │───────▶│  Revision 3  │
+│              │        │              │        │              │
+└──────────────┘        └──────────────┘        └──────────────┘
+```
+
+### Exercise
+
+Turn to a neighbor and explain what a version control system is in your own words. If helps, draw a picture of how a VCS grows over time.
+
+## Why is a version control system important?
+
+A version control allows developers to revert a software project back to a specific revision. This is extremely useful for the times when you accidentally introduce a bug into a project. Everyone makes mistakes, even professional programmers with years of experience. With a VCS, making mistakes is no big deal. Just hop into your VCS time machine!
+
+For example, imagine a VCS with three revisions.
+
+```
+┌──────────────┐        ┌──────────────┐        ┌──────────────┐
+│              │        │              │        │              │
+│  Revision 1  │───────▶│  Revision 2  │───────▶│  Revision 3  │
+│              │        │              │        │              │
+└──────────────┘        └──────────────┘        └──────────────┘
+```
+
+If a bug was accidentally introduced in revision 3, no big deal. Just revert the project back to revision 2.
+
+```
+┌──────────────┐        ┌──────────────┐
+│              │        │              │
+│  Revision 1  │───────▶│  Revision 2  │
+│              │        │              │
+└──────────────┘        └──────────────┘
+```
+
+Now, you've got another chance to add the feature bugfree.
+
+```
+┌──────────────┐        ┌──────────────┐        ┌───────────────┐
+│              │        │              │        │               │
+│  Revision 1  │───────▶│  Revision 2  │───────▶│  Revision 3'  │
+│              │        │              │        │               │
+└──────────────┘        └──────────────┘        └───────────────┘
+```
+
+In a nutshell, a VCS allows developers to:
+
+- Create revisions of a project.
+- View previous revisions of a project.
+- Revert to a previous revision of a project.
+
+### Exercise
+
+In your own words, write down why a VCS is so important. After about a minute, your instructor will cold call on the class and ask what was written down.
+
+## What's Git?
+
+There are many different version
+
+- Git
+- Mercurial
+- SVN
+- Perforce
+- TFS
+- etc.
 
 [Git](https://git-scm.com/) is a free and open source software for distributed version control.
 While there are many different version control systems, git is incredibly popular and powerful. Many companies use git, and if you understand git it will be easy to learn another version control paradigm.
