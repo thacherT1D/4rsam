@@ -3,6 +3,7 @@
 - Explain what a version control system is.
 - Explain why a version control system is important.
 - Explain what Git is.
+- Explain what GitHub is.
 - Describe the purpose of a working directory, staging area, and repository
 - Initialize a git repository with `git init`
 - Check the status of changed files in a git repository with `git status`
@@ -106,7 +107,7 @@ Files in a Git repository go through the following steps.
 | Staged    | Changes that will be included in the next revision  |
 | Committed | Changes that have been included in the a revision   |
 
-### What is GitHub?
+### What's GitHub?
 
 Git and GitHub are NOT the same thing.
 [Github](http://github.com/) is a web based service that hosts repositories on a server and allows developers to easily collaborate.
