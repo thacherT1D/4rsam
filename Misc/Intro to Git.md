@@ -96,15 +96,15 @@ There are many different version control systems on the market like Git, Mercuri
 
 Because Git is so powerful and flexible, it's incredibly popular among software development companies large and small. The good news is, if you understand Git, then it'll be easy to learn another VCS if the need arises.
 
-In Git, a **repository** is a directory on your laptop's file system that's been initialized with Git version control system. The changes made to a file in a Git repository can only be in one of the following steps at a time.
+In Git, a **repository** is a directory on your laptop's file system that's been initialized with Git version control system. A change made to a file in a Git repository can only be in one of the following states at a time.
 
-| Step          | Description                                             |
-|---------------|---------------------------------------------------------|
-| **Unstaged**  | Any changes that won't be included in the next revision |
-| **Staged**    | Any changes that will be included in the next revision  |
-| **Committed** | Any changes that were included in a previous revision   |
+| State         | Description                                       |
+|---------------|---------------------------------------------------|
+| **Unstaged**  | The change won't be included in the next revision |
+| **Staged**    | The change will be included in the next revision  |
+| **Committed** | The change was included in a previous revision    |
 
-In Git, a revision is also known as a **commit**.
+**NOTE:** In Git, a revision is also known as a **commit**.
 
 ### Exercise
 
