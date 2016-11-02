@@ -42,6 +42,8 @@ If another change is made to any file, then the resulting set of files in the VC
 └──────────────┘        └──────────────┘        └──────────────┘
 ```
 
+**NOTE:** Common synonyms for a revision include **version** and **snapshot**.
+
 ### Exercise
 
 Turn to a neighbor and explain what a version control system is in your own words. If helps, draw a picture of how a VCS grows over time.
