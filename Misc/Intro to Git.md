@@ -3,13 +3,10 @@
 - Explain what a version control system is.
 - Explain why a version control system is important.
 - Explain what Git is.
+- Initialize a Git repository.
+- Modify, add, and commit changes to a Git repository.
 - Explain what GitHub is.
-- Describe the purpose of a working directory, staging area, and repository
-- Initialize a git repository with `git init`
-- Check the status of changed files in a git repository with `git status`
-- Stage new and changed files with `git add`
-- Commit staged files to the git repository with `git commit`
-- Push local commits to a remote repository with `git push`
+- Push commits from a local repository to a remote repository.
 
 ## What's a version control system?
 
@@ -99,15 +96,96 @@ There are many different VCS on the market—Git, Mercurial, SVN, CVS, Perforce,
 
 Because Git is so powerful and flexible, it's incredibly popular among software development companies large and small. The good news is, if you understand Git, then it'll be easy to learn another VCS if the need arises.
 
-Files in a Git repository go through the following steps.
+In Git, a **repository** is a directory that's been initialized with Git version control system. The changes made to a file in a Git repository can only be in one of the following steps at a time.
 
-| Step      | Description                                         |
-|-----------|-----------------------------------------------------|
-| Unstaged  | Changes that won't be included in the next revision |
-| Staged    | Changes that will be included in the next revision  |
-| Committed | Changes that have been included in the a revision   |
+| Step          | Description                                          |
+|---------------|------------------------------------------------------|
+| **Unstaged**  | Changes that won't be included in the next revision  |
+| **Staged**    | Changes that will be included in the next revision   |
+| **Committed** | Changes that were included in a previous revision    |
 
-### What's GitHub?
+In Git, a revision is also known as a **commit**.
+
+### Exercise
+
+Turn to a neighbor and explain what a Git is in your own words. Try to include some keywords like repository, unstaged, staged, comitted, and commit in your explanation.
+
+## How do you initialize a Git repository?
+
+[git manual](https://git-scm.com/docs/git-init)
+
+Initialize a new git repo in the current directory with:
+
+```shell
+git init
+```
+
+You can verify git was intialized by checking if a `.git` folder was created with `ls -a`.
+
+[git manual](https://git-scm.com/docs/git-status)
+
+When in a git repository, you can type `git status` to see any staged or unstaged changes pending.
+
+In your git repository:
+
+```shell
+git status
+```
+
+Example Output:
+
+```shell
+$ git status
+On branch g15
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	01_vcs.md
+	02_basic_git.md
+	03_github.md
+	04_github_clone.md
+	05_github_workflow.md
+```
+
+## How do you modify, add, and commit changes to a Git repository?
+
+[git manual](https://git-scm.com/docs/git-add)
+
+If you have any files that are brand new to the repo or have been changed, you can tell git to start tracking it with:
+
+```shell
+git add <file>
+```
+
+To add all new files and changes in a directory:
+
+```shell
+git add .
+```
+
+After adding a file or change to the repo,
+  try running `git status` again to make sure it got staged.
+
+[git manual](https://git-scm.com/docs/git-commit)
+
+After staging files with `git add`,
+  you can now commit the changes to save the current state of the project as a snapshot in time.
+
+```shell
+git commit -m "I fixed all of the bugs. :)"
+```
+
+This will create a commit in git that will be a snapshot of what the project currently is.
+
+## What's GitHub?
 
 Git and GitHub are NOT the same thing.
 [Github](http://github.com/) is a web based service that hosts repositories on a server and allows developers to easily collaborate.
@@ -149,97 +227,14 @@ Let's say you want to deliver some packages to Mars with a rocketship. *You want
 
 1. Astronaut on Mars will recieve your rocketship and be happy with their new packages. *Check your GitHub repo to make sure the changes were pushed*
 
-### Basic Git Commands
-
-There are 4 main commands for `git`
-* init
-* status
-* add
-* commit
-
-With these 4 commands you can create a repo and start versioning your project.
-
-#### `git init`
-
-[git manual](https://git-scm.com/docs/git-init)
-
-Initialize a new git repo in the current directory with:
-```sh
-$ git init
-```
-
-You can verify git was intialized by checking if a `.git` folder was created with `ls -a`.
-
-#### `git status`
-
-[git manual](https://git-scm.com/docs/git-status)
-
-When in a git repository, you can type `git status` to see any staged or unstaged changes pending.
-
-In your git repository:
-```sh
-$ git status
-```
-
-Example Output:
-```sh
-$ git status
-On branch g15
-
-Initial commit
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-
-	new file:   README.md
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	01_vcs.md
-	02_basic_git.md
-	03_github.md
-	04_github_clone.md
-	05_github_workflow.md
-```
-
-#### `git add`
-
-[git manual](https://git-scm.com/docs/git-add)
-
-If you have any files that are brand new to the repo or have been changed, you can tell git to start tracking it with:
-```sh
-$ git add <file>
-```
-
-To add all new files and changes in a directory:
-```sh
-$ git add .
-```
-
-After adding a file or change to the repo,
-  try running `git status` again to make sure it got staged.
-
-#### `git commit`
-
-[git manual](https://git-scm.com/docs/git-commit)
-
-After staging files with `git add`,
-  you can now commit the changes to save the current state of the project as a snapshot in time.
-
-```sh
-$ git commit -m "I fixed all of the bugs. :)"
-```
-
-This will create a commit in git that will be a snapshot of what the project currently is.
-
-#### `git push`
+## How do you push commits from a local repository to a remote repository?
 
 [git manual](https://git-scm.com/docs/git-push)
 
 If you are using GitHub or collaborating with another git repo, you can push any new commits to your default remote with:
-```sh
-$ git push
+
+```shell
+git push
 ```
 
 If you have your remote pointing to GitHub, you should now be able to see any changes on your GitHub page.
