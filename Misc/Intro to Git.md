@@ -73,7 +73,7 @@ If a bug was accidentally introduced in revision 3, no big deal. Just revert the
 └──────────────┘        └──────────────┘
 ```
 
-Now, you've got another chance to add the feature bugfree.
+Now, you've got another chance to add a feature that's bug free.
 
 ```
 ┌──────────────┐        ┌──────────────┐        ┌───────────────┐
