@@ -55,9 +55,9 @@ Using the tools above, lint your most recent JavaScript assignment. If you get s
 ## Resources
 
 - [ESLint][eslint]
+- [`eslint-config-ryansobol`][eslint-config-ryansobol]
 - [`linter`][linter]
 - [`linter-eslint`][linter-eslint]
-- [Ryan Sobol's shareable ESLint configuration][eslint-config-ryansobol]
 - [Wikipedia - Lint_(software)](https://en.wikipedia.org/wiki/Lint_(software))
 
 [eslint]: http://eslint.org/
