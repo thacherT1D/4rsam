@@ -40,13 +40,13 @@ In your notes, explain why linting your code is important in your own words. Be 
 
 ## How do you use ESLint to lint your JavaScript code?
 
-1. Read ESLint's [about page][eslint-about]
-1. Read Ryan Sobol's [shareable ESLint configuration][eslint-config-ryansobol]
+1. Read the [about page][eslint-about] for ESLint.
+1. Read the [documentation][eslint-config-ryansobol] for `eslint-config-ryansobol`.
 
 ### Optional Atom packages
 
-1. Read `linter`'s [documentation][linter]
-1. Read `linter-eslint`'s [documentation][linter-eslint]
+1. Read [documentation][linter] for `linter`.
+1. Read [documentation][linter-eslint] for `linter-eslint`.
 
 ### Exercise
 
