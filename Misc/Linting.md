@@ -12,7 +12,7 @@ A **linter** is any tool that flags suspicious usage of coding constructs, debug
 
 ### Exercise
 
-Turn to a neighbor and explain what linting is in your own words.
+Turn to a neighbor and explain what linting is in your own words. Be prepared to share what you discussed.
 
 ## Why is linting your code important?
 
@@ -36,7 +36,7 @@ Long story short, if you want your code to look like you've been developing soft
 
 ### Exercise
 
-In your notes, explain why linting your code is important in your own words.
+In your notes, explain why linting your code is important in your own words. Be prepared to share what you wrote.
 
 ## How do you use ESLint to lint your JavaScript code?
 
