@@ -10,7 +10,7 @@
 
 A **linter** is any tool that flags suspicious usage of coding constructs, debugs code for common syntax errors, or highlights code that doesn't adhere to certain style guidelines. There are a many JavaScript linters like JSHint, JSLint, JSCS, and ESLint. In this course, we'll introduce you to [ESLint][eslint], a flexible, free, and open source JavaScript linter. Created by Nicholas C. Zakas in June 2013, ESLint has quickly become the de facto JavaScript linter because of it's ability to lint ES6 code.
 
-### Exercie
+### Exercise
 
 Turn to a neighbor and explain what linting is in your own words.
 
