@@ -45,8 +45,8 @@ In your notes, explain why linting your code is important in your own words. Be 
 
 ### Optional Atom packages
 
-1. Read `linter`'s [main page][linter]
-1. Read `linter-eslint`'s [main page][linter-eslint]
+1. Read `linter`'s [documentation][linter]
+1. Read `linter-eslint`'s [documentation][linter-eslint]
 
 ### Exercise
 
