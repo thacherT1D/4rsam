@@ -43,16 +43,25 @@ In your notes, explain why linting your code is important in your own words. Be 
 1. Read ESLint's [about page][eslint-about]
 1. Read Ryan Sobol's [shareable ESLint configuration][eslint-config-ryansobol]
 
+### Optional Atom plugins
+
+1. Read `linter`'s [package description][linter]
+1. Read `linter-eslint`'s [package description][linter-eslint]
+
 ### Exercise
 
-Install ESLint and Ryan Sobol's shareable ESLint configuration on your development environment. Then, use these tools to lint your most recent JavaScript assignment.
+Using the tools above, lint your most recent JavaScript assignment.
 
 ## Resources
 
 - [ESLint][eslint]
+- [`linter`][linter]
+- [`linter-eslint`][linter-eslint]
 - [Ryan Sobol's shareable ESLint configuration][eslint-config-ryansobol]
 - [Wikipedia - Lint_(software)](https://en.wikipedia.org/wiki/Lint_(software))
 
 [eslint]: http://eslint.org/
 [eslint-about]: http://eslint.org/docs/about/
 [eslint-config-ryansobol]: https://github.com/ryansobol/eslint-config-ryansobol
+[linter]: https://atom.io/packages/linter
+[linter-eslint]: https://atom.io/packages/linter-eslint
