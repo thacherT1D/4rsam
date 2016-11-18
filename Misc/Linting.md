@@ -51,6 +51,7 @@ Install ESLint and Ryan Sobol's shareable ESLint configuration on your developme
 
 - [ESLint][eslint]
 - [Ryan Sobol's shareable ESLint configuration][eslint-config-ryansobol]
+- [Wikipedia - Lint_(software)](https://en.wikipedia.org/wiki/Lint_(software))
 
 [eslint]: http://eslint.org/
 [eslint-about]: http://eslint.org/docs/about/
