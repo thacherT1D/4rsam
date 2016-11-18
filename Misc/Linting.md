@@ -36,7 +36,7 @@ Long story short, if you want your code to look like you've been developing soft
 
 ### Exercise
 
-In your own words, explain why linting your code is important.
+In your notes, explain why linting your code is important in your own words.
 
 ## How do you use ESLint to lint your JavaScript code?
 
