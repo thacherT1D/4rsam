@@ -8,7 +8,7 @@
 
 **Linting** is the process of running a program that analyzes the code of another program for potential errors. The word "linting" comes the `lint` Unix utility which flags suspicious usage of coding constructs in C language code. For example, unreachable statements, variables declared but not used, functions whose returns values are not used, etc. For C developers, linting their code is important because suspicious coding constructs are likely to produce bugs when their program is run on different hardware or operating systems.
 
-A **linter** is any tool that flags suspicious usage of coding constructs and syntactic style. In other words, linters debug code for common syntax errors and highlight code that doesn't adhere to certain style guidelines. In this lesson, you use [ESLint][eslint] to analyze and improve JavaScript code you've already written in this course. By the end, you'll have a concrete picture of what linting is, why it's useful, and how to lint your own JavaScript code.
+A **linter** is any tool that flags suspicious usage of coding constructs, debugs code for common syntax errors, or highlights code that doesn't adhere to certain style guidelines. There are a many JavaScript linters like JSHint, JSLint, JSCS, and ESLint. In this course, we'll introduce you to [ESLint][eslint], a flexible, free, and open source JavaScript linter. Created by Nicholas C. Zakas in June 2013, ESLint has become the de facto JavaScript linter because of it's ability to lint ES6 code.
 
 ### Exercie
 
@@ -45,7 +45,7 @@ In your own words, explain why linting your code is important.
 
 ### Exercise
 
-Install ESLint and Ryan Sobol's shareable ESLint configuration on your development environment. Then, use these tools to lint your last JavaScript assignment.
+Install ESLint and Ryan Sobol's shareable ESLint configuration on your development environment. Then, use these tools to lint your most recent JavaScript assignment.
 
 ## Resources
 
