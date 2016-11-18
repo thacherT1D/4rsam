@@ -50,7 +50,7 @@ In your notes, explain why linting your code is important in your own words. Be 
 
 ### Exercise
 
-Using the tools above, lint your most recent JavaScript assignment. If you get stuck for more than 15 minutes, ask for help.
+Using the tools above, lint your most recent JavaScript assignment. If you get stuck, ask for help.
 
 ## Resources
 
