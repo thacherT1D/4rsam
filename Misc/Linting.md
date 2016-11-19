@@ -6,9 +6,9 @@
 
 ## What's linting?
 
-**Linting** is the process of running a program that analyzes the code of another program for potential errors. The word "linting" comes the `lint` Unix utility which flags suspicious usage of coding constructs in C language code. For example, unreachable statements, variables declared but not used, functions whose returns values are not used, etc. For C developers, linting their code is important because suspicious coding constructs are likely to produce bugs when their program is run on different hardware or operating systems.
+**Linting** is the process of running a program that analyzes the code of another program for potential errors. The word "linting" comes from the `lint` Unix utility which flags suspicious usage of coding constructs in C language code. For example, unreachable statements, variables declared but not used, functions whose return values are not used, etc. For C developers, linting their code is important because suspicious coding constructs are likely to produce bugs when their program is run on different hardware or operating systems.
 
-A **linter** is any tool that flags suspicious usage of coding constructs, debugs code for common syntax errors, or highlights code that doesn't adhere to certain style guidelines. There are a many JavaScript linters like JSHint, JSLint, JSCS, and ESLint. In this course, we'll introduce you to [ESLint][eslint], a flexible, free, and open source JavaScript linter. Created by Nicholas C. Zakas in June 2013, ESLint has quickly become the de facto JavaScript linter because of it's ability to lint ES6 code.
+A **linter** is any tool that flags suspicious usage of coding constructs, debugs code for common syntax errors, or highlights code that doesn't adhere to certain style guidelines. There are many JavaScript linters like JSHint, JSLint, JSCS, and ESLint. In this course, we'll introduce you to [ESLint][eslint], a flexible, free, and open source JavaScript linter. Created by Nicholas C. Zakas in June 2013, ESLint has quickly become the de facto JavaScript linter because of its ability to lint ES6 code.
 
 ### Exercise
 
