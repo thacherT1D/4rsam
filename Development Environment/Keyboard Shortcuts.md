@@ -20,8 +20,8 @@
 | Action                                                     | Shortcut        |
 |------------------------------------------------------------|-----------------|
 | Switch to the next open application                 | `Command ⌘` + `Tab`    |
-| Switch to previous application (after using `Command ⌘` + `Tab`) | `Command ⌘` + ``````` |
-| Switch to the next window of the same application   | `Command ⌘` + ```````      |
+| Switch to previous application (after using `Command ⌘` + `Tab`) | `Command ⌘` + <code>`</code> |
+| Switch to the next window of the same application   | `Command ⌘` + <code>`</code>     |
 | Open a new window                                   | `Command ⌘` + `N`      |
 | Open a new tab                                      | `Command ⌘` + `N`      |
 | Close a tab (or the window if only one tab is open) | `Command ⌘` + `W`      |
