@@ -1,144 +1,124 @@
-# Essential Shortcuts
-
-## OSX
-`command + tab` : switch open applications
-
-<code>command + &#96;</code> : (when already in command + tab) switch open applications in reverse
-
-<code>command + &#96;</code> : goes between different windows of current program
-
-`command + q` (while in open applications) : quit an application
-
-## Chrome / Sublime /  Bash / most apps with tabs
-
-`command + n` : create new window (`shift + command + n` for Sublime)
-
-`command + t` : create new tab (`command + n` for Sublime)
-
-`command + w` : close tab or window if only one tab
-
-`shift + command + w` : close window with multiple open tabs
-
-`command + q` : quit application
-
-`command + shift + ]` : move right one tab
-
-`command + shift + [` : move left one tab
-
-`command + NUMBER` : move to tab number NUMBER (not in Terminal)
-
-`fn + up` : page up
-
-`fn + down` : page down
-
-`alt + command + arrow keys` : move right or left tabs
-
-## Chrome
-
-`command + r` : reload page
-
-`command + option + j` : open the javascript console
-
-`command + ]` : move forward through history
-
-`command + [` : move backward through history
-
-`command + shift + t` : reopen last closed tab (up to 10)
-
-## Sublime
-
-`command + ctrl + f` : toggle fullscreen
-
-`command + ctrl + shift + f` : toggle distraction free
-
-
-`option + arrows` : move one word at a time
-
-`command + arrows` : move to beginning and end of line
-
-`shift + above commands` : select all the text
-
-`delete + the above` : delete all the text
-
-`fn + delete` : delete forward
-
-`command + k`, command k : delete to end of line
-
-`command +  delete` : delete to beginning of line
-
-`fn + up / down` : page up / page down
-
-`fn + right / left` : beginning and end of file
-
-
-`command + z` : undo
-
-`command + shift + z` : redo
-
-`command + y` :redo
-
-`command + /` : toggle comment for line
-
-`command + ]` : shift indenting right
-
-`command + [` : shift indenting left
-
-`command + l` : select the whole line
-
-`command + c` (with selection) : copy selection
-
-`command + x` (with selection) : cut selection
-
-`command + v` : paste most recent cut or copy
-
-`command + shift + v` : paste with proper indentation
-
-`command + x` : cut the whole line
-
-`command + c` : copy the whole line
-
-`command + enter` : create new line below
-
-`command + shift` + enter : create new line above
-
-`command + shift + d` : copy current line below
-
-`command + control + arrows` : move entire line up and down
-
-`command + k, command + u` : make selection upper case
-
-`command + k, command + l` : make selection lower case
-
-`command + '` : select all within quotes
-
-`control + m` : move to beginning/end of parens and braces
-
-`command + d` : select word(s)
-
-`command + k` while selecting words : don't select word
-
-`command + ctrl + g` : select all of words
-
-`option + mouseDrag` : column select
-
-`command + mouseClick` : custom multiple cursor
-
-`command + p` : goto anything (use with :line_number, @symbol, #term)
-
-`command + r` : search all function names in current file
-
-`command + shift + p` : set syntax (and many many other things)
-
-`command + f` : find
-
-`command + shift + f` : massive find
-
-`command + k, command + b` : toggle file bar
-
-`command + option + NUMBER` : split screen
-
-`control + shift + NUMBER` : move current file to pane
-
-`command + shift + l` : multi line cursor based on selection
-
-`command + control + up/down` : move a line up or down
+# Essential Keyboard Shortcuts
+
+## Universal actions
+
+| Action             | Shortcut                                           |
+|--------------------|----------------------------------------------------|
+| Cut                | `Command ⌘` + `X`                                  |
+| Copy               | `Command ⌘` + `C`                                  |
+| Paste              | `Command ⌘` + `V`                                  |
+| Select all         | `Command ⌘` + `A`                                  |
+| Undo               | `Command ⌘` + `Z`                                  |
+| Redo               | `Command ⌘` + `Y` or `Command ⌘` + `Shift ⇧` + `Z` |
+| Toggle Spotlight   | `Command ⌘` + `Spacebar`                           |
+| Increase font size | `Command ⌘` + `+`                                  |
+| Decrease font size | `Command ⌘` + `-`                                  |
+| Reset font size    | `Command ⌘` + `0`                                  |
+
+## Application actions
+
+| Action                                                     | Shortcut        |
+|------------------------------------------------------------|-----------------|
+| Switch to the next open application                 | `Command ⌘` + `Tab`    |
+| Switch to previous application (after using `Command ⌘` + `Tab`) | `Command ⌘` + ``` |
+| Switch to the next window of the same application   | `Command ⌘` + ```      |
+| Open a new window                                   | `Command ⌘` + `N`      |
+| Open a new tab                                      | `Command ⌘` + `N`      |
+| Close a tab (or the window if only one tab is open) | `Command ⌘` + `W`      |
+| Close a window with multiple tabs open       | `Command ⌘` + `Shift ⇧` + `W` |
+| Quit the application                                | `Command ⌘` + `Q`      |
+| Open the preferences                                | `Command ⌘` + `,`      |
+| Move one page up                                    | `Fn` + `Up Arrow ↑`    |
+| Move one page down                                  | `Fn` + `Down Arrow ↓`  |
+| Move one tab to the right       | `Option ⌥` + `Command ⌘` + `Right Arrow →` |
+| Move one tab to the right                    | `Command ⌘` + `Shift ⇧` + `]` |
+| Move one tab to the left         | `Option ⌥` + `Command ⌘` + `Left Arrow ←` |
+| Move one tab to the left                     | `Command ⌘` + `Shift ⇧` + `[` |
+| Move to a specific tab (doesn't work in Terminal)   | `Command ⌘` + `NUMBER` |
+| Toggle fullscreen                          | `Command ⌘` + `Control ⌃` + `F` |
+| Delete forward                                      | `Fn` + `Delete`        |
+| Move forward one word                         | `Option ⌥` + `Right Arrow →` |
+| Move backward one word                         | `Option ⌥` + `Left Arrow ←` |
+| Select forward one word           | `Option ⌥` + `Shift ⇧` + `Right Arrow →` |
+| Select backward one word           | `Option ⌥` + `Shift ⇧` + `Left Arrow ←` |
+| Move to end of the current line              | `Command ⌘` + `Right Arrow →` |
+| Move to beginning of the current line         | `Command ⌘` + `Left Arrow ←` |
+| Select to end of the current line | `Command ⌘` + `Shift ⇧` + `Right Arrow →`|
+| Select to beginning of the current line | `Command ⌘` + `Shift ⇧` + `Left Arrow ←` |
+| Delete to beginning of the line (not in Terminal)   | `Command ⌘` + `Delete` |
+
+## Chrome actions
+
+| Action                                    | Shortcut                  |
+|-------------------------------------------|---------------------------|
+| Refresh the page                          | `Command ⌘` + R             |
+| Open the JavaScript console               | `Command ⌘` + `Option ⌥` + J  |
+| Move forward through your Chrome history  | `Command ⌘` + ]             |
+| Move backward through your Chrome history | `Command ⌘` + [             |
+| Reopen the last closed tab                | `Command ⌘` + + `Shift ⇧` + T |
+
+## Document actions
+
+| Action                | Shortcut          |
+|-----------------------|-------------------|
+| Create a new document | `Command ⌘` + `N` |
+| Save a document       | `Command ⌘` + `S` |
+| Open a document       | `Command ⌘` + `O` |
+| Print a document      | `Command ⌘` + `P` |
+
+## Finder actions
+
+| Action                  | Shortcut                           |
+|-------------------------|------------------------------------|
+| Create a new folder     | `Command ⌘` + `Shift ⇧` + `N`      |
+| Delete a file or folder | `Command ⌘` + `Delete`             |
+| Empty the trash         | `Command ⌘` + `Shift ⇧` + `Delete` |
+
+## Cursor actions
+
+| Action                                    | Shortcut                      |
+|-------------------------------------------|-------------------------------|
+| Move the cursor all the way to the left   | `Command ⌘` + `Left Arrow ←`  |
+| Move the cursor all the way to the right  | `Command ⌘` + `Right Arrow →` |
+| Move the cursor all the way to the top    | `Command ⌘` + `Up Arrow ↑`    |
+| Move the cursor all the way to the bottom | `Command ⌘` + `Down Arrow ↓`  |
+
+## Screenshot actions
+
+| Action                                 | Shortcut                           |
+|----------------------------------------|------------------------------------|
+| Take a screenshot of the entire screen | `Command ⌘` + `Shift ⇧` + `3`      |
+| Take a screenshot of the custom area   | `Command ⌘` + `Shift ⇧` + `4`      |
+| Take a screenshot of a single window   | `Command ⌘` + `Shift ⇧` + `4` + `Spacebar` |
+
+## Atom actions
+
+| Action                                         | Shortcut                    |
+|------------------------------------------------|-----------------------------|
+| Toggle comment for line/selection              | `Command ⌘` + `/`           |
+| Indent line/selection (move right)             | `Tab` or `Command ⌘` + `]`  |
+| Unindent line/selection (move left)            | Tab or `Command ⌘` + `[`    |
+| Select an entire line                          | `Command ⌘` + `L`           |
+| Cut the whole line (when nothing is selected)  | `Command ⌘` + `X`           |
+| Copy the whole line (when nothing is selected) | `Command ⌘` + `C`           |
+| Create a new line below the current line       | `Command ⌘` + `Enter`       |
+| Create a new line above the current line | `Command ⌘` + `Shift ⇧` + `Enter` |
+| Copy the current line and paste it below     | `Command ⌘` + `Shift ⇧` + `D` |
+| Move the current line up one line | `Command ⌘` + `Control ⌃` + `Up Arrow ↑` |
+| Move the current line down one line | `Command ⌘` + `Control ⌃` + `Down Arrow ↓` |
+| Make current word/selection uppercase | `Command ⌘` + `K` and then `Command ⌘` + `U` |
+| Make current word/selection lowercase | `Command ⌘` + `K` and then `Command ⌘` + `L` |
+| Move cursor to beginning/ending brace or parenthesis | `Control ⌃` + `M`     |
+| Select the current word (if no word is highlighted) | `Command ⌘` + `D`      |
+| Select the next instance of what is selected   | `Command ⌘` + `D`           |
+| Select all instances of the current selection | `Command ⌘` + `Control ⌃` + `G` |
+| Add multiple cursors                           | `Command ⌘` + `Mouse Click` |
+| Search file names in the current project       | `Command ⌘` + `P`           |
+| Toggle tree (left side project navigation)     | `Command ⌘` + `\`           |
+| Open the Command Palette                     | `Command ⌘` + `Shift ⇧` + `P` |
+| Select inside braces/parentheses           | `Command ⌘` + `Control ⌃` + `M` |
+| Find (by searching in current document)        | `Command ⌘` + `F`           |
+| Find (by searching in current project)       | `Command ⌘` + `Shift ⇧` + `F` |
+| Open the Go To Line panel                      | `Control ⌃` + `G`           |
+| Change language setting for current file     | `Control ⌃` + `Shift ⇧` + `L` |
+| Create a multiline cursor                    | `Command ⌘` + `Shift ⇧` + `L` |
