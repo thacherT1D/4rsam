@@ -74,8 +74,8 @@
 | Copy the current line and paste it below     | `Shift ⇧` + `Command ⌘` + `D` |
 | Move the current line up one line | `Control ⌃` + `Command ⌘` + `Up Arrow ↑` |
 | Move the current line down one line | `Control ⌃` + `Command ⌘` + `Down Arrow ↓` |
-| Make current word/selection uppercase | `Command ⌘` + `K` and then `Command ⌘` + `U` |
-| Make current word/selection lowercase | `Command ⌘` + `K` and then `Command ⌘` + `L` |
+| Make current word/selection uppercase          | `Command ⌘` + `K` + `U`     |
+| Make current word/selection lowercase          | `Command ⌘` + `K` + `L`     |
 | Move cursor to beginning/ending brace or parenthesis | `Control ⌃` + `M`     |
 | Select the current word (if no word is highlighted) | `Command ⌘` + `D`      |
 | Select the next instance of what is selected   | `Command ⌘` + `D`           |
