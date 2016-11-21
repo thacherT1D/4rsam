@@ -20,8 +20,8 @@
 | Action                                                     | Shortcut        |
 |------------------------------------------------------------|-----------------|
 | Switch to the next open application                 | `Command ⌘` + `Tab`    |
-| Switch to previous application (after using `Command ⌘` + `Tab`) | `Command ⌘` + ``` |
-| Switch to the next window of the same application   | `Command ⌘` + ```      |
+| Switch to previous application (after using `Command ⌘` + `Tab`) | `Command ⌘` + `\`` |
+| Switch to the next window of the same application   | `Command ⌘` + `\``      |
 | Open a new window                                   | `Command ⌘` + `N`      |
 | Open a new tab                                      | `Command ⌘` + `N`      |
 | Close a tab (or the window if only one tab is open) | `Command ⌘` + `W`      |
@@ -97,7 +97,7 @@
 |------------------------------------------------|-----------------------------|
 | Toggle comment for line/selection              | `Command ⌘` + `/`           |
 | Indent line/selection (move right)             | `Tab` or `Command ⌘` + `]`  |
-| Unindent line/selection (move left)            | Tab or `Command ⌘` + `[`    |
+| Unindent line/selection (move left)            | `Tab` or `Command ⌘` + `[`  |
 | Select an entire line                          | `Command ⌘` + `L`           |
 | Cut the whole line (when nothing is selected)  | `Command ⌘` + `X`           |
 | Copy the whole line (when nothing is selected) | `Command ⌘` + `C`           |
