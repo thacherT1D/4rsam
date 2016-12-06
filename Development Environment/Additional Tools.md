@@ -3,3 +3,7 @@ Here are a few helpful tools for the different aspects of visual design. Feel fr
 - Color picker: [Sip](http://sipapp.io/)
 - Photo editor: [Pixelmator](http://www.pixelmator.com/mac/)
 - Vector editor: [Sketch](https://www.sketchapp.com/)
+
+### Next Step
+
+Check out some [keyboard shortcuts](Keyboard Shortcuts.md) on your on time.
