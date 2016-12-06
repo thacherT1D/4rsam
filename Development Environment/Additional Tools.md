@@ -82,4 +82,6 @@ brew cask install postman
 
 ## Next Steps
 
+Check out some [keyboard shortcuts](Keyboard Shortcuts.md) on your on time.
+
 Deploy a web application with [Surge](../Deployment/Surge.md)
