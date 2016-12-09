@@ -51,7 +51,7 @@ Now the only thing you need to do any time you want to deploy changes to your we
 ---
 
 ###Alternate Static Hosts
-* [Github Pages](https://pages.github.com/)
+* [Github Pages](https://pages.github.com)
 * [Amazon S3](https://aws.amazon.com/s3/)
 * [Neocities](http://neocities.org/)
 

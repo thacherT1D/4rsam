@@ -60,7 +60,7 @@ What are some popular pieces of software for agile project management?
 - [Pivotal Tracker for Beginners](https://www.pivotaltracker.com/flash/flvplayer.swf?file=http://tracker.screencast.s3.amazonaws.com/pivotal-tracker-concepts.flv&image=https://d3jgo56a5b0my0.cloudfront.net/images/v7/application/screenshots/storyview.png&autostart=true%20*%20http://www.mountaingoatsoftware.com/agile/user-stories%20*%20https://help.rallydev.com/writing-great-user-story)
 
 ## Resources
-- [GitHub - Mastering Issues](https://guides.github.com/features/issues/)
+- [GitHub - Mastering Issues](https://guides.github.com/features/issues)
 - [Youtube - GitHub for Project Management](https://www.youtube.com/watch?v=6fByt0o4UYs&t=630)
 - [Sifter - What is issue tracking?](https://sifterapp.com/academy/overview/why/)
 - [Mountain Goat Software - User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
